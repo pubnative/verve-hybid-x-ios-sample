@@ -14,6 +14,7 @@
 		7E524DC323592D7400AAAE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC223592D7400AAAE78 /* Assets.xcassets */; };
 		7E524DC623592D7400AAAE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC423592D7400AAAE78 /* LaunchScreen.storyboard */; };
 		7E524DD123592D7400AAAE78 /* KwizzadRTASampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */; };
+		BBE62F145A08FFE0AE98D249 /* Pods_KwizzadRTASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBA04FCCEAE831C8711A825 /* Pods_KwizzadRTASample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.release.xcconfig"; sourceTree = "<group>"; };
 		7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DB923592D7300AAAE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E524DBB23592D7300AAAE78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwizzadRTASampleTests.swift; sourceTree = "<group>"; };
 		7E524DD223592D7400AAAE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BBA04FCCEAE831C8711A825 /* Pods_KwizzadRTASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE62F145A08FFE0AE98D249 /* Pods_KwizzadRTASample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +63,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0149EB749A95877AE9CC0880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */,
+				6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B6C517B9166F33B57364BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA04FCCEAE831C8711A825 /* Pods_KwizzadRTASample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E524DAD23592D7300AAAE78 = {
 			isa = PBXGroup;
 			children = (
 				7E524DB823592D7300AAAE78 /* KwizzadRTASample */,
 				7E524DCF23592D7400AAAE78 /* KwizzadRTASampleTests */,
 				7E524DB723592D7300AAAE78 /* Products */,
+				0149EB749A95877AE9CC0880 /* Pods */,
+				7B6C517B9166F33B57364BA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASample" */;
 			buildPhases = (
+				8ED348C36AECF206E01141BE /* [CP] Check Pods Manifest.lock */,
 				7E524DB223592D7300AAAE78 /* Sources */,
 				7E524DB323592D7300AAAE78 /* Frameworks */,
 				7E524DB423592D7300AAAE78 /* Resources */,
+				6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +221,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED348C36AECF206E01141BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwizzadRTASample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E524DB223592D7300AAAE78 /* Sources */ = {
@@ -360,6 +429,7 @@
 		};
 		7E524DD623592D7400AAAE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +448,7 @@
 		};
 		7E524DD723592D7400AAAE78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

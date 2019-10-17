@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import KwizzadRTA
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        KwizzadRTA.shared.configure(with: "insl.rsmPlayer.rsm.Inselradio/rta_ios")
+        
         return true
     }
 

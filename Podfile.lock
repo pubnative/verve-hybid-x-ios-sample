@@ -1,0 +1,21 @@
+PODS:
+  - KwizzadRTA/Core (0.0.1)
+
+DEPENDENCIES:
+  - "KwizzadRTA/Core (from `git@bitbucket.org:tvsmiles/rtakit-spec.git`)"
+
+EXTERNAL SOURCES:
+  KwizzadRTA:
+    :git: "git@bitbucket.org:tvsmiles/rtakit-spec.git"
+
+CHECKOUT OPTIONS:
+  KwizzadRTA:
+    :commit: 57ff63f9a5b83d988e7c481449020710c42732bc
+    :git: "git@bitbucket.org:tvsmiles/rtakit-spec.git"
+
+SPEC CHECKSUMS:
+  KwizzadRTA: e35e82cfbf24538c3e46565b2e0f94e3dbef4539
+
+PODFILE CHECKSUM: afff9153947067550eebd8bb3d6efeaa91193897
+
+COCOAPODS: 1.8.1
