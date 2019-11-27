@@ -22,21 +22,13 @@ Integrating the Kwizzad RTA SDK into an app is the first step toward displaying 
 
 ## Add the SDK to your iOS project
 
-__Step 1__. Integrate KwizzadRTA framework into your project via cocoapods.
+Integrate KwizzadRTA framework into your project via cocoapods.
 
 Add this lines to your Podfile:
 
 ```ruby
 
-pod 'KwizzadRTA', :git => 'git@bitbucket.org:tvsmiles/rtakit-spec.git'
-
-```
-
-__Step 2__. (optional) Add only specified modules
-
-```ruby
-
-pod 'KwizzadRTA', :subspecs => ["Core", "Admob", "Ogury", "FyberSDK", "Admob", "GoogleIMA", "Aerserv", "OpenBidSDK", "FBAudienceNetwork", "FeedAd", "SpotX", "IronSource", "AAT"], :git => 'git@bitbucket.org:tvsmiles/rtakit-spec.git'
+pod 'KwizzadRTA'
 
 ```
 
@@ -48,7 +40,13 @@ Once that's done, save the file and perform a pod install.
 ### Initialize
 
 Before loading and showing ads, initialize the library by calling  `KwizzadRTA.shared.configre(with: token)` .  This will fetch the ad configuration.
+Additinaly, you can receive a completion bool to know if the SDK is finished configuring.
 
+```swif
+KwizzadRTA.configure(with: "token") { (status) in
+    //KwizzadRTA is configured you can start loading ads.
+}
+```
 
 Start loading rta objects in your view controller and conform it KwizzadRTADelegate protocol:
 ```swift
@@ -83,11 +81,11 @@ You don't have to reload ads, it is done automatically. As soon as another ad is
 
 
 
-## Add providers
-VAST/VPAID is supported by default without any additional todo on your side.
+## Ad providers
 
-Following providers can be enabled additionally as sbspecs in the Podfile:
+The Following providers are integrated within the SDK:
 
+ - VAST/VPAID
  - AdMob (Interstitials, Rewarded Videos)
  - Facebook Audience Network (Interstitials, Rewarded Videos)
  - IronSource (Interstitials, Rewarded Videos) (coming soon)
@@ -104,4 +102,3 @@ Following providers can be enabled additionally as sbspecs in the Podfile:
  - Fyber Marketplace (Interstitials, Rewarded Videos)
  - SpotX (VAST/VPAID)
  - FeedAd (Interstitials)
- - Ogury (Interstitials)

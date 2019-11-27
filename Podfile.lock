@@ -1,21 +1,124 @@
 PODS:
-  - KwizzadRTA/Core (0.0.1)
+  - AATKit/AdColony (2.68.15):
+    - AATKit/Core
+    - AdColony (= 3.3.6)
+  - AATKit/Core (2.68.15)
+  - AATKit/Inmobi (2.68.15):
+    - AATKit/Core
+    - InMobiSDK (= 7.2.1)
+  - AATKit/Mopub (2.68.15):
+    - AATKit/Core
+  - AATKit/Smaato (2.68.15):
+    - AATKit/Core
+    - SmaatoSDK (= 10.2.3)
+  - AATKit/SmartAdServer (2.68.15):
+    - AATKit/Core
+    - Smart-Display-SDK (= 7.2.0)
+  - AATKit/Unity (2.68.15):
+    - AATKit/Core
+    - UnityAds (= 3.0.0)
+  - AATKit/Vungle (2.68.15):
+    - AATKit/Core
+    - VungleSDK-iOS (= 6.3.2)
+  - AdColony (3.3.6)
+  - FeedAd (1.1.10)
+  - Google-Mobile-Ads-SDK (7.50.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAds-IMA-iOS-SDK (3.9.0)
+  - GoogleAppMeasurement (6.1.6):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleUtilities/AppDelegateSwizzler (6.3.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.2)
+  - GoogleUtilities/Logger (6.3.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.2)"
+  - GoogleUtilities/Reachability (6.3.2):
+    - GoogleUtilities/Logger
+  - InMobiSDK (7.2.1)
+  - KwizzadRTA (0.1.0):
+    - AATKit/AdColony (= 2.68.15)
+    - AATKit/Core (= 2.68.15)
+    - AATKit/Inmobi (= 2.68.15)
+    - AATKit/Mopub (= 2.68.15)
+    - AATKit/Smaato (= 2.68.15)
+    - AATKit/SmartAdServer (= 2.68.15)
+    - AATKit/Unity (= 2.68.15)
+    - AATKit/Vungle (= 2.68.15)
+    - FeedAd (= 1.1.10)
+    - Google-Mobile-Ads-SDK (= 7.50.0)
+    - GoogleAds-IMA-iOS-SDK (= 3.9.0)
+    - SpotX-SDK (= 4.2.1)
+    - SpotX-SDK-MOAT (= 4.2.1)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - SmaatoSDK (10.2.3)
+  - Smart-Core-SDK (7.3.0)
+  - Smart-Display-SDK (7.2.0):
+    - Smart-Core-SDK (~> 7.2)
+  - SpotX-SDK (4.2.1)
+  - SpotX-SDK-MOAT (4.2.1):
+    - SpotX-SDK
+  - UnityAds (3.0.0)
+  - VungleSDK-iOS (6.3.2)
 
 DEPENDENCIES:
-  - "KwizzadRTA/Core (from `git@bitbucket.org:tvsmiles/rtakit-spec.git`)"
+  - KwizzadRTA (= 0.1.0)
 
-EXTERNAL SOURCES:
-  KwizzadRTA:
-    :git: "git@bitbucket.org:tvsmiles/rtakit-spec.git"
-
-CHECKOUT OPTIONS:
-  KwizzadRTA:
-    :commit: 57ff63f9a5b83d988e7c481449020710c42732bc
-    :git: "git@bitbucket.org:tvsmiles/rtakit-spec.git"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AATKit
+    - AdColony
+    - FeedAd
+    - Google-Mobile-Ads-SDK
+    - GoogleAds-IMA-iOS-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - InMobiSDK
+    - KwizzadRTA
+    - nanopb
+    - SmaatoSDK
+    - Smart-Core-SDK
+    - Smart-Display-SDK
+    - SpotX-SDK
+    - SpotX-SDK-MOAT
+    - UnityAds
+    - VungleSDK-iOS
 
 SPEC CHECKSUMS:
-  KwizzadRTA: e35e82cfbf24538c3e46565b2e0f94e3dbef4539
+  AATKit: 431d45cb26defb73119cbe1203793c36c27e0e7c
+  AdColony: 68473450de30de67154675c3512353a55c8f97cc
+  FeedAd: a893a5c2efc9b28f2955ab35e419f7eca6389f46
+  Google-Mobile-Ads-SDK: d48dbaf5bae1ab7a94a9786f493c26c454bc6f16
+  GoogleAds-IMA-iOS-SDK: 8f57879738137b81a48ba792e42439e6bff5413b
+  GoogleAppMeasurement: dfe55efa543e899d906309eaaac6ca26d249862f
+  GoogleUtilities: 547a86735c6f0ee30ad17e94df4fc21f616b71cb
+  InMobiSDK: 8fefc109960ff4603970fd81761685d8ef5c03d6
+  KwizzadRTA: a911aa24b7bb905997b21dc029777ff5434a5335
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  SmaatoSDK: c71e8292ba1a1a6a6367a0a11f540322edd023da
+  Smart-Core-SDK: d3dc366a1af946d13d737ee211d5be33dc1ed60b
+  Smart-Display-SDK: d84aadc873e6007568567105e9e07dfc12ff7dce
+  SpotX-SDK: 58c7452b0aea7204b78228f0192837af0075e4fb
+  SpotX-SDK-MOAT: 158170163e9d864deb2f3c5c8e269f7a43a599b6
+  UnityAds: ff7c0f477873f40daccd7c0bd0b656cb6cf5a2e5
+  VungleSDK-iOS: 69a7f407b60281d2954ffc5eeeac349fbfed51d6
 
-PODFILE CHECKSUM: afff9153947067550eebd8bb3d6efeaa91193897
+PODFILE CHECKSUM: d2c5c553c912f38e3a891b38ed3b3ae139e9a0ba
 
-COCOAPODS: 1.8.1
+COCOAPODS: 1.8.4

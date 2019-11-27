@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -69,7 +69,6 @@
 				F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */,
 				6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -136,6 +135,7 @@
 				7E524DB323592D7300AAAE78 /* Frameworks */,
 				7E524DB423592D7300AAAE78 /* Resources */,
 				6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */,
+				39491C34488201079D9D9240 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +223,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		39491C34488201079D9D9240 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -12,12 +12,15 @@ import KwizzadRTA
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    static var isConfigured = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        KwizzadRTA.shared.configure(with: "insl.rsmPlayer.rsm.Inselradio/rta_ios")
-        
+        KwizzadRTA.showLogs(true)
+        KwizzadRTA.configure(with: "rta_ios") { (status) in
+            AppDelegate.isConfigured = status
+        }
         return true
     }
 

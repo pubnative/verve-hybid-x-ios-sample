@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y1v-bG-bEx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
@@ -11,29 +11,67 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KwizzadRTASample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="cbw-PR-eal">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4J-JM-D3b">
-                                <rect key="frame" x="172" y="438" width="70" height="30"/>
-                                <state key="normal" title="SHOW AD"/>
-                                <connections>
-                                    <action selector="showAdClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x8l-xC-SZs"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="JoO-5v-oA8">
+                                <rect key="frame" x="156.5" y="430" width="101" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUQ-e1-Bvb">
+                                        <rect key="frame" x="0.0" y="0.0" width="101" height="30"/>
+                                        <state key="normal" title="LOAD AD"/>
+                                        <connections>
+                                            <action selector="loadAdClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eeu-oB-3fB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsA-tW-ESa">
+                                        <rect key="frame" x="0.0" y="30" width="101" height="30"/>
+                                        <state key="normal" title="SHOW AD"/>
+                                        <connections>
+                                            <action selector="showAdClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2u-ts-gdG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbd-ce-8gO">
+                                        <rect key="frame" x="0.0" y="60" width="101" height="30"/>
+                                        <state key="normal" title="SHOW DEBUG"/>
+                                        <connections>
+                                            <action selector="showDebugScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a4R-NG-i9k"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="c4J-JM-D3b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kp8-dK-oo2"/>
-                            <constraint firstItem="c4J-JM-D3b" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ugS-6V-c9Y"/>
+                            <constraint firstItem="JoO-5v-oA8" firstAttribute="centerY" secondItem="xMT-Ju-uGL" secondAttribute="centerY" id="lzc-eB-eaB"/>
+                            <constraint firstItem="JoO-5v-oA8" firstAttribute="centerX" secondItem="xMT-Ju-uGL" secondAttribute="centerX" id="oUy-Ax-9MR"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="xMT-Ju-uGL"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ajC-PH-ZKX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="139"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="138.61607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ALS-Uc-C4S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y1v-bG-bEx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rZl-NQ-4sO">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="EYB-UT-xTE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlx-sZ-C1K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>

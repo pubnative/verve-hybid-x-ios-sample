@@ -10,7 +10,7 @@ use_frameworks!
 
 def shared_pods
 
-  pod 'KwizzadRTA', :subspecs => ["Core"], :git => 'git@bitbucket.org:tvsmiles/rtakit-spec.git'
+  pod 'KwizzadRTA', '0.1.0'
 
 end
 
