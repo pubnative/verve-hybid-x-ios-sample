@@ -17,7 +17,12 @@ Integrating the Kwizzad RTA SDK into an app is the first step toward displaying 
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-
+    
+     <key>GADApplicationIdentifier</key>
+    <string>GOOGLE_AD_TOKEN_GET_FROM_SUPPORT</string>
+    <key>GADIsAdManagerApp</key>
+    <true/>
+    
 ```
 
 ## Add the SDK to your iOS project
