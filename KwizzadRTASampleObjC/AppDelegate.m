@@ -19,9 +19,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    [KwizzadRTA setTestMode:YES];
     [KwizzadRTA configureWith:@"rta_ios" completion:^(BOOL finished) {
     }];
-    
     
     return YES;
 }
