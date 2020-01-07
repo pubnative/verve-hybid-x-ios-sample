@@ -1,4 +1,4 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 
 install! 'cocoapods', :deterministic_uuids => false
 inhibit_all_warnings!
@@ -9,11 +9,13 @@ platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
-
-  pod 'KwizzadRTA', '0.1.0'
-
+  pod 'KwizzadRTA', '0.3.1'
 end
 
 target 'KwizzadRTASample' do
+  shared_pods
+end
+
+target 'KwizzadRTASampleObjC' do
   shared_pods
 end

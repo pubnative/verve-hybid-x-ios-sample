@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2802161B39FE34AA3ADE696F /* Pods_KwizzadRTASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A88C8F9495E2BFA08DF9E96 /* Pods_KwizzadRTASample.framework */; };
+		6221D38723C49AE900DD0721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38623C49AE900DD0721 /* AppDelegate.m */; };
+		6221D38A23C49AE900DD0721 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38923C49AE900DD0721 /* SceneDelegate.m */; };
+		6221D38D23C49AE900DD0721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38C23C49AE900DD0721 /* ViewController.m */; };
+		6221D39023C49AE900DD0721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6221D38E23C49AE900DD0721 /* Main.storyboard */; };
+		6221D39223C49AE900DD0721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6221D39123C49AE900DD0721 /* Assets.xcassets */; };
+		6221D39523C49AE900DD0721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6221D39323C49AE900DD0721 /* LaunchScreen.storyboard */; };
+		6221D39823C49AE900DD0721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D39723C49AE900DD0721 /* main.m */; };
+		6221D3A223C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D3A123C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m */; };
 		7E524DBA23592D7300AAAE78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DB923592D7300AAAE78 /* AppDelegate.swift */; };
 		7E524DBC23592D7300AAAE78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DBB23592D7300AAAE78 /* SceneDelegate.swift */; };
 		7E524DBE23592D7300AAAE78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DBD23592D7300AAAE78 /* ViewController.swift */; };
@@ -14,10 +23,17 @@
 		7E524DC323592D7400AAAE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC223592D7400AAAE78 /* Assets.xcassets */; };
 		7E524DC623592D7400AAAE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC423592D7400AAAE78 /* LaunchScreen.storyboard */; };
 		7E524DD123592D7400AAAE78 /* KwizzadRTASampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */; };
-		BBE62F145A08FFE0AE98D249 /* Pods_KwizzadRTASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBA04FCCEAE831C8711A825 /* Pods_KwizzadRTASample.framework */; };
+		AB074AFEB86F61C8984C98EB /* Pods_KwizzadRTASampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839709296052F33B8274A61 /* Pods_KwizzadRTASampleObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6221D39E23C49AEA00DD0721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E524DAE23592D7300AAAE78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6221D38223C49AE900DD0721;
+			remoteInfo = KwizzadRTASampleObjC;
+		};
 		7E524DCD23592D7400AAAE78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7E524DAE23592D7300AAAE78 /* Project object */;
@@ -27,8 +43,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		62E0C61823C395C90011DDE0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2839709296052F33B8274A61 /* Pods_KwizzadRTASampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A88C8F9495E2BFA08DF9E96 /* Pods_KwizzadRTASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6221D38523C49AE900DD0721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6221D38623C49AE900DD0721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6221D38823C49AE900DD0721 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6221D38923C49AE900DD0721 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6221D38B23C49AE900DD0721 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6221D38C23C49AE900DD0721 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6221D38F23C49AE900DD0721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6221D39123C49AE900DD0721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6221D39423C49AE900DD0721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6221D39623C49AE900DD0721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6221D39723C49AE900DD0721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6221D3A123C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwizzadRTASampleObjCTests.m; sourceTree = "<group>"; };
+		6221D3A323C49AEA00DD0721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.release.xcconfig"; sourceTree = "<group>"; };
+		72F9FF6F4FF35369EE5E9074 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		7304E1E38E827C23DD75164D /* Pods-KwizzadRTASampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.release.xcconfig"; sourceTree = "<group>"; };
 		7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DB923592D7300AAAE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E524DBB23592D7300AAAE78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,16 +88,30 @@
 		7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwizzadRTASampleTests.swift; sourceTree = "<group>"; };
 		7E524DD223592D7400AAAE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BBA04FCCEAE831C8711A825 /* Pods_KwizzadRTASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6221D38023C49AE900DD0721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB074AFEB86F61C8984C98EB /* Pods_KwizzadRTASampleObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6221D39A23C49AEA00DD0721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E524DB323592D7300AAAE78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBE62F145A08FFE0AE98D249 /* Pods_KwizzadRTASample.framework in Frameworks */,
+				2802161B39FE34AA3ADE696F /* Pods_KwizzadRTASample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,14 +130,44 @@
 			children = (
 				F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */,
 				6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */,
+				72F9FF6F4FF35369EE5E9074 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */,
+				7304E1E38E827C23DD75164D /* Pods-KwizzadRTASampleObjC.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6221D38423C49AE900DD0721 /* KwizzadRTASampleObjC */ = {
+			isa = PBXGroup;
+			children = (
+				6221D38523C49AE900DD0721 /* AppDelegate.h */,
+				6221D38623C49AE900DD0721 /* AppDelegate.m */,
+				6221D38823C49AE900DD0721 /* SceneDelegate.h */,
+				6221D38923C49AE900DD0721 /* SceneDelegate.m */,
+				6221D38B23C49AE900DD0721 /* ViewController.h */,
+				6221D38C23C49AE900DD0721 /* ViewController.m */,
+				6221D38E23C49AE900DD0721 /* Main.storyboard */,
+				6221D39123C49AE900DD0721 /* Assets.xcassets */,
+				6221D39323C49AE900DD0721 /* LaunchScreen.storyboard */,
+				6221D39623C49AE900DD0721 /* Info.plist */,
+				6221D39723C49AE900DD0721 /* main.m */,
+			);
+			path = KwizzadRTASampleObjC;
+			sourceTree = "<group>";
+		};
+		6221D3A023C49AEA00DD0721 /* KwizzadRTASampleObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				6221D3A123C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m */,
+				6221D3A323C49AEA00DD0721 /* Info.plist */,
+			);
+			path = KwizzadRTASampleObjCTests;
 			sourceTree = "<group>";
 		};
 		7B6C517B9166F33B57364BA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BBA04FCCEAE831C8711A825 /* Pods_KwizzadRTASample.framework */,
+				2A88C8F9495E2BFA08DF9E96 /* Pods_KwizzadRTASample.framework */,
+				2839709296052F33B8274A61 /* Pods_KwizzadRTASampleObjC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,6 +177,8 @@
 			children = (
 				7E524DB823592D7300AAAE78 /* KwizzadRTASample */,
 				7E524DCF23592D7400AAAE78 /* KwizzadRTASampleTests */,
+				6221D38423C49AE900DD0721 /* KwizzadRTASampleObjC */,
+				6221D3A023C49AEA00DD0721 /* KwizzadRTASampleObjCTests */,
 				7E524DB723592D7300AAAE78 /* Products */,
 				0149EB749A95877AE9CC0880 /* Pods */,
 				7B6C517B9166F33B57364BA0 /* Frameworks */,
@@ -96,6 +190,8 @@
 			children = (
 				7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */,
 				7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */,
+				6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */,
+				6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +222,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6221D38223C49AE900DD0721 /* KwizzadRTASampleObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjC" */;
+			buildPhases = (
+				A74453D74810D00B261484E3 /* [CP] Check Pods Manifest.lock */,
+				6221D37F23C49AE900DD0721 /* Sources */,
+				6221D38023C49AE900DD0721 /* Frameworks */,
+				6221D38123C49AE900DD0721 /* Resources */,
+				801CB734949D2DE764320544 /* [CP] Embed Pods Frameworks */,
+				43181618DF72359F64262E0F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KwizzadRTASampleObjC;
+			productName = KwizzadRTASampleObjC;
+			productReference = 6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6221D39C23C49AEA00DD0721 /* KwizzadRTASampleObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6221D3A723C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjCTests" */;
+			buildPhases = (
+				6221D39923C49AEA00DD0721 /* Sources */,
+				6221D39A23C49AEA00DD0721 /* Frameworks */,
+				6221D39B23C49AEA00DD0721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6221D39F23C49AEA00DD0721 /* PBXTargetDependency */,
+			);
+			name = KwizzadRTASampleObjCTests;
+			productName = KwizzadRTASampleObjCTests;
+			productReference = 6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7E524DB523592D7300AAAE78 /* KwizzadRTASample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASample" */;
@@ -135,7 +269,8 @@
 				7E524DB323592D7300AAAE78 /* Frameworks */,
 				7E524DB423592D7300AAAE78 /* Resources */,
 				6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */,
-				39491C34488201079D9D9240 /* [CP] Copy Pods Resources */,
+				4FE16FEC6B2B40E149ABB9E6 /* [CP] Copy Pods Resources */,
+				62E0C61823C395C90011DDE0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,10 +305,17 @@
 		7E524DAE23592D7300AAAE78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Fares Ben Hamouda";
 				TargetAttributes = {
+					6221D38223C49AE900DD0721 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					6221D39C23C49AEA00DD0721 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 6221D38223C49AE900DD0721;
+					};
 					7E524DB523592D7300AAAE78 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -198,11 +340,30 @@
 			targets = (
 				7E524DB523592D7300AAAE78 /* KwizzadRTASample */,
 				7E524DCB23592D7400AAAE78 /* KwizzadRTASampleTests */,
+				6221D38223C49AE900DD0721 /* KwizzadRTASampleObjC */,
+				6221D39C23C49AEA00DD0721 /* KwizzadRTASampleObjCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6221D38123C49AE900DD0721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6221D39523C49AE900DD0721 /* LaunchScreen.storyboard in Resources */,
+				6221D39223C49AE900DD0721 /* Assets.xcassets in Resources */,
+				6221D39023C49AE900DD0721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6221D39B23C49AEA00DD0721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E524DB423592D7300AAAE78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,7 +384,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39491C34488201079D9D9240 /* [CP] Copy Pods Resources */ = {
+		43181618DF72359F64262E0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE16FEC6B2B40E149ABB9E6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,6 +435,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		801CB734949D2DE764320544 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8ED348C36AECF206E01141BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,9 +474,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A74453D74810D00B261484E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwizzadRTASampleObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6221D37F23C49AE900DD0721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6221D38D23C49AE900DD0721 /* ViewController.m in Sources */,
+				6221D38723C49AE900DD0721 /* AppDelegate.m in Sources */,
+				6221D39823C49AE900DD0721 /* main.m in Sources */,
+				6221D38A23C49AE900DD0721 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6221D39923C49AEA00DD0721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6221D3A223C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E524DB223592D7300AAAE78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +539,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6221D39F23C49AEA00DD0721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6221D38223C49AE900DD0721 /* KwizzadRTASampleObjC */;
+			targetProxy = 6221D39E23C49AEA00DD0721 /* PBXContainerItemProxy */;
+		};
 		7E524DCE23592D7400AAAE78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7E524DB523592D7300AAAE78 /* KwizzadRTASample */;
@@ -311,6 +552,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6221D38E23C49AE900DD0721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6221D38F23C49AE900DD0721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6221D39323C49AE900DD0721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6221D39423C49AE900DD0721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		7E524DBF23592D7300AAAE78 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -330,6 +587,84 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6221D3A523C49AEA00DD0721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F9FF6F4FF35369EE5E9074 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				INFOPLIST_FILE = KwizzadRTASampleObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASampleObjC;
+				PRODUCT_NAME = KwizzadRTASampleObjC;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6221D3A623C49AEA00DD0721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7304E1E38E827C23DD75164D /* Pods-KwizzadRTASampleObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				INFOPLIST_FILE = KwizzadRTASampleObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASampleObjC;
+				PRODUCT_NAME = KwizzadRTASampleObjC;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6221D3A823C49AEA00DD0721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				INFOPLIST_FILE = KwizzadRTASampleObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.KwizzadRTASampleObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwizzadRTASampleObjC.app/KwizzadRTASampleObjC";
+			};
+			name = Debug;
+		};
+		6221D3A923C49AEA00DD0721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				INFOPLIST_FILE = KwizzadRTASampleObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.KwizzadRTASampleObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwizzadRTASampleObjC.app/KwizzadRTASampleObjC";
+			};
+			name = Release;
+		};
 		7E524DD323592D7400AAAE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,13 +785,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M6VZFHJV8T;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/KwizzadRTA/KwizzadRTA.framework/Base",
+				);
 				INFOPLIST_FILE = KwizzadRTASample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kwizzad.KwizzadRTASample;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,13 +808,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M6VZFHJV8T;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/KwizzadRTA/KwizzadRTA.framework/Base",
+				);
 				INFOPLIST_FILE = KwizzadRTASample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kwizzad.KwizzadRTASample;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,6 +872,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6221D3A523C49AEA00DD0721 /* Debug */,
+				6221D3A623C49AEA00DD0721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6221D3A723C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6221D3A823C49AEA00DD0721 /* Debug */,
+				6221D3A923C49AEA00DD0721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7E524DB123592D7300AAAE78 /* Build configuration list for PBXProject "KwizzadRTASample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
