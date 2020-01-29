@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2802161B39FE34AA3ADE696F /* Pods_KwizzadRTASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A88C8F9495E2BFA08DF9E96 /* Pods_KwizzadRTASample.framework */; };
 		6221D38723C49AE900DD0721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38623C49AE900DD0721 /* AppDelegate.m */; };
 		6221D38A23C49AE900DD0721 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38923C49AE900DD0721 /* SceneDelegate.m */; };
 		6221D38D23C49AE900DD0721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38C23C49AE900DD0721 /* ViewController.m */; };
@@ -23,7 +22,8 @@
 		7E524DC323592D7400AAAE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC223592D7400AAAE78 /* Assets.xcassets */; };
 		7E524DC623592D7400AAAE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC423592D7400AAAE78 /* LaunchScreen.storyboard */; };
 		7E524DD123592D7400AAAE78 /* KwizzadRTASampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */; };
-		AB074AFEB86F61C8984C98EB /* Pods_KwizzadRTASampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2839709296052F33B8274A61 /* Pods_KwizzadRTASampleObjC.framework */; };
+		8A72016FA249C82735C63D9A /* Pods_KwizzadRTASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0D23CA2E1EDE7EEFC02147 /* Pods_KwizzadRTASample.framework */; };
+		DEB19E333B986003D8E1C3F2 /* Pods_KwizzadRTASampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC991C4B1DF45177BA42EB81 /* Pods_KwizzadRTASampleObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2839709296052F33B8274A61 /* Pods_KwizzadRTASampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A88C8F9495E2BFA08DF9E96 /* Pods_KwizzadRTASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16522AE3D8BEDAB50FFB1DF5 /* Pods-KwizzadRTASample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.debug.xcconfig"; sourceTree = "<group>"; };
 		6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6221D38523C49AE900DD0721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6221D38623C49AE900DD0721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -74,9 +73,6 @@
 		6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6221D3A123C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwizzadRTASampleObjCTests.m; sourceTree = "<group>"; };
 		6221D3A323C49AEA00DD0721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.release.xcconfig"; sourceTree = "<group>"; };
-		72F9FF6F4FF35369EE5E9074 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
-		7304E1E38E827C23DD75164D /* Pods-KwizzadRTASampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.release.xcconfig"; sourceTree = "<group>"; };
 		7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DB923592D7300AAAE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E524DBB23592D7300AAAE78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +84,11 @@
 		7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwizzadRTASampleTests.swift; sourceTree = "<group>"; };
 		7E524DD223592D7400AAAE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF0CC4218C99B4C035630D2 /* Pods-KwizzadRTASampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.release.xcconfig"; sourceTree = "<group>"; };
+		9C0D23CA2E1EDE7EEFC02147 /* Pods_KwizzadRTASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD82FA4809FE0D5B573D0E41 /* Pods-KwizzadRTASample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.release.xcconfig"; sourceTree = "<group>"; };
+		BA440256EC6310239EBCF8E4 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		FC991C4B1DF45177BA42EB81 /* Pods_KwizzadRTASampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB074AFEB86F61C8984C98EB /* Pods_KwizzadRTASampleObjC.framework in Frameworks */,
+				DEB19E333B986003D8E1C3F2 /* Pods_KwizzadRTASampleObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2802161B39FE34AA3ADE696F /* Pods_KwizzadRTASample.framework in Frameworks */,
+				8A72016FA249C82735C63D9A /* Pods_KwizzadRTASample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,10 +128,10 @@
 		0149EB749A95877AE9CC0880 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */,
-				6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */,
-				72F9FF6F4FF35369EE5E9074 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */,
-				7304E1E38E827C23DD75164D /* Pods-KwizzadRTASampleObjC.release.xcconfig */,
+				16522AE3D8BEDAB50FFB1DF5 /* Pods-KwizzadRTASample.debug.xcconfig */,
+				AD82FA4809FE0D5B573D0E41 /* Pods-KwizzadRTASample.release.xcconfig */,
+				BA440256EC6310239EBCF8E4 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */,
+				9AF0CC4218C99B4C035630D2 /* Pods-KwizzadRTASampleObjC.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,15 +163,6 @@
 			path = KwizzadRTASampleObjCTests;
 			sourceTree = "<group>";
 		};
-		7B6C517B9166F33B57364BA0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2A88C8F9495E2BFA08DF9E96 /* Pods_KwizzadRTASample.framework */,
-				2839709296052F33B8274A61 /* Pods_KwizzadRTASampleObjC.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7E524DAD23592D7300AAAE78 = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +172,7 @@
 				6221D3A023C49AEA00DD0721 /* KwizzadRTASampleObjCTests */,
 				7E524DB723592D7300AAAE78 /* Products */,
 				0149EB749A95877AE9CC0880 /* Pods */,
-				7B6C517B9166F33B57364BA0 /* Frameworks */,
+				AE9165E1A1ACFA98EEA2E3E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +210,15 @@
 			path = KwizzadRTASampleTests;
 			sourceTree = "<group>";
 		};
+		AE9165E1A1ACFA98EEA2E3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C0D23CA2E1EDE7EEFC02147 /* Pods_KwizzadRTASample.framework */,
+				FC991C4B1DF45177BA42EB81 /* Pods_KwizzadRTASampleObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,12 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjC" */;
 			buildPhases = (
-				A74453D74810D00B261484E3 /* [CP] Check Pods Manifest.lock */,
+				6006E6CAF3355BA7F7AE1ACF /* [CP] Check Pods Manifest.lock */,
 				6221D37F23C49AE900DD0721 /* Sources */,
 				6221D38023C49AE900DD0721 /* Frameworks */,
 				6221D38123C49AE900DD0721 /* Resources */,
-				801CB734949D2DE764320544 /* [CP] Embed Pods Frameworks */,
-				43181618DF72359F64262E0F /* [CP] Copy Pods Resources */,
+				C49A70046A619518C61C6FCF /* [CP] Embed Pods Frameworks */,
+				A214622B6BB23783E68B7BC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,13 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASample" */;
 			buildPhases = (
-				8ED348C36AECF206E01141BE /* [CP] Check Pods Manifest.lock */,
+				D0891408ABB6F082AC9AC2D7 /* [CP] Check Pods Manifest.lock */,
 				7E524DB223592D7300AAAE78 /* Sources */,
 				7E524DB323592D7300AAAE78 /* Frameworks */,
 				7E524DB423592D7300AAAE78 /* Resources */,
-				6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */,
-				4FE16FEC6B2B40E149ABB9E6 /* [CP] Copy Pods Resources */,
 				62E0C61823C395C90011DDE0 /* Embed Frameworks */,
+				F291DF1BFECF1A23E192FBC6 /* [CP] Embed Pods Frameworks */,
+				7536E746C97322B0660EC0F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,24 +384,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		43181618DF72359F64262E0F /* [CP] Copy Pods Resources */ = {
+		6006E6CAF3355BA7F7AE1ACF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KwizzadRTASampleObjC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FE16FEC6B2B40E149ABB9E6 /* [CP] Copy Pods Resources */ = {
+		7536E746C97322B0660EC0F8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,24 +423,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B41D0E2713AA7B79D37C5E9 /* [CP] Embed Pods Frameworks */ = {
+		A214622B6BB23783E68B7BC6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		801CB734949D2DE764320544 /* [CP] Embed Pods Frameworks */ = {
+		C49A70046A619518C61C6FCF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,7 +457,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8ED348C36AECF206E01141BE /* [CP] Check Pods Manifest.lock */ = {
+		D0891408ABB6F082AC9AC2D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,26 +479,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A74453D74810D00B261484E3 /* [CP] Check Pods Manifest.lock */ = {
+		F291DF1BFECF1A23E192FBC6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KwizzadRTASampleObjC-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -589,7 +589,7 @@
 /* Begin XCBuildConfiguration section */
 		6221D3A523C49AEA00DD0721 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72F9FF6F4FF35369EE5E9074 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */;
+			baseConfigurationReference = BA440256EC6310239EBCF8E4 /* Pods-KwizzadRTASampleObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -608,7 +608,7 @@
 		};
 		6221D3A623C49AEA00DD0721 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7304E1E38E827C23DD75164D /* Pods-KwizzadRTASampleObjC.release.xcconfig */;
+			baseConfigurationReference = 9AF0CC4218C99B4C035630D2 /* Pods-KwizzadRTASampleObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -781,7 +781,7 @@
 		};
 		7E524DD623592D7400AAAE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2D5F87656D1BD93C5386DA7 /* Pods-KwizzadRTASample.debug.xcconfig */;
+			baseConfigurationReference = 16522AE3D8BEDAB50FFB1DF5 /* Pods-KwizzadRTASample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -804,7 +804,7 @@
 		};
 		7E524DD723592D7400AAAE78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CA27A53204D2C9202A0F70F /* Pods-KwizzadRTASample.release.xcconfig */;
+			baseConfigurationReference = AD82FA4809FE0D5B573D0E41 /* Pods-KwizzadRTASample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

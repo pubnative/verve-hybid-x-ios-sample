@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showConsentScreen(_ sender: Any) {
-        KwizzadRTA.showConsentScreen(from: self) { (consentGiven) in
+        KwizzadRTA.showConsentScreen(from: self, instances: [kwizzad]) { (consentGiven) in
             self.textViewDebug.appendText(with: "consent status: \(consentGiven)")
         }
     }
