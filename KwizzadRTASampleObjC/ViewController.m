@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import <KwizzadRTA/KwizzadRTA-Swift.h>
-
 @interface ViewController () <KwizzadRTADelegate>
 
 @property (weak, nonatomic) IBOutlet UITextView *debugTextView;
@@ -42,7 +41,7 @@ NSString* placement = @"test";
 }
 
 - (IBAction)showConsentScreen:(id)sender {
-    [KwizzadRTA showConsentScreenFrom:self completion:^(BOOL consentGiven) {
+    [KwizzadRTA showConsentScreenFrom:self instances: [NSArray arrayWithObjects: kwizzad, nil] completion:^(BOOL consentGiven) {
         [self->_debugTextView insertText: [NSString stringWithFormat:@"\n consent status: %@", consentGiven ? @"true" : @"false"]];
     }];
 }

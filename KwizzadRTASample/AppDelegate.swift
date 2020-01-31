@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         KwizzadRTA.setTestMode(true)
+        KwizzadRTA.setDebugMode(true)
         KwizzadRTA.configure(with: "rta_ios") { (status) in }
 
         return true
