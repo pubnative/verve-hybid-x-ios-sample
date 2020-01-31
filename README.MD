@@ -116,3 +116,6 @@ The Following providers are integrated within the SDK:
  - Fyber Marketplace (Interstitials, Rewarded Videos)
  - SpotX (VAST/VPAID)
  - FeedAd (Interstitials)
+
+## Known Issues: 
+- Objective-C Sample app does not build for simulator.
