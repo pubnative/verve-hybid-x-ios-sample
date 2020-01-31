@@ -17,10 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        KwizzadRTA.showLogs(true)
-        KwizzadRTA.configure(with: "rta_ios") { (status) in
-            AppDelegate.isConfigured = status
-        }
+        KwizzadRTA.setTestMode(true)
+        KwizzadRTA.setDebugMode(true)
+        KwizzadRTA.configure(with: "rta_ios") { (status) in }
+
         return true
     }
 

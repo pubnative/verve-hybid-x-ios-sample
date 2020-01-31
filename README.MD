@@ -27,7 +27,7 @@ Integrating the Kwizzad RTA SDK into an app is the first step toward displaying 
 
 ## Add the SDK to your iOS project
 
-Integrate KwizzadRTA framework into your project via cocoapods.
+- Integrate KwizzadRTA framework into your project via cocoapods.
 
 Add this lines to your Podfile:
 
@@ -39,6 +39,15 @@ pod 'KwizzadRTA'
 
 Once that's done, save the file and perform a pod install.
 
+- Fix incompatible Dependency
+
+```ruby
+sed -i '' 's/^module AATKit/framework module AATKit/' Pods/AATKit/aat/AATKit.framework/Versions/A/Modules/module.modulemap
+```
+This fixes the Compile Error: Include of non-modular header inside framework module 'KwizzadRTA'
+Alternative Manual Fix:
+- Open the file under Pods/AATKit/aat/AATKit.framework/Versions/A/Modules/module.modulemap
+- add the keyword 'framework' at the very begining.
 
 ## Integration
 
@@ -107,3 +116,6 @@ The Following providers are integrated within the SDK:
  - Fyber Marketplace (Interstitials, Rewarded Videos)
  - SpotX (VAST/VPAID)
  - FeedAd (Interstitials)
+
+## Known Issues: 
+- Objective-C Sample app does not build for simulator.
