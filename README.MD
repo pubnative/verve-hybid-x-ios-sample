@@ -102,7 +102,7 @@ The Following providers are integrated within the SDK:
  - VAST/VPAID
  - AdMob (Interstitials, Rewarded Videos)
  - Facebook Audience Network (Interstitials, Rewarded Videos)
- - IronSource (Interstitials, Rewarded Videos) (coming soon)
+ - IronSource (Interstitials, Rewarded Videos)
  - Addapptr; including:
 	 - Google Ad Manager (Interstitials, Rewarded Videos)
 	 - SmartAdSErver (Interstitials)
