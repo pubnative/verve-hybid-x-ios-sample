@@ -53,18 +53,19 @@ PODS:
     - GoogleUtilities/Logger
   - HyBid (1.4.1)
   - InMobiSDK (7.2.1)
-  - KwizzadRTA (0.4.8):
-    - KwizzadRTA/AAT (= 0.4.8)
-    - KwizzadRTA/AdColony (= 0.4.8)
-    - KwizzadRTA/Admob (= 0.4.8)
-    - KwizzadRTA/AppLovin (= 0.4.8)
-    - KwizzadRTA/Core (= 0.4.8)
-    - KwizzadRTA/FeedAd (= 0.4.8)
-    - KwizzadRTA/GoogleIMA (= 0.4.8)
-    - KwizzadRTA/Inneractive (= 0.4.8)
-    - KwizzadRTA/Pubnative (= 0.4.8)
-    - KwizzadRTA/SpotX (= 0.4.8)
-  - KwizzadRTA/AAT (0.4.8):
+  - KwizzadRTA (0.4.9):
+    - KwizzadRTA/AAT (= 0.4.9)
+    - KwizzadRTA/AdColony (= 0.4.9)
+    - KwizzadRTA/Admob (= 0.4.9)
+    - KwizzadRTA/AppLovin (= 0.4.9)
+    - KwizzadRTA/Core (= 0.4.9)
+    - KwizzadRTA/FeedAd (= 0.4.9)
+    - KwizzadRTA/GoogleIMA (= 0.4.9)
+    - KwizzadRTA/Inneractive (= 0.4.9)
+    - KwizzadRTA/IronSource (= 0.4.9)
+    - KwizzadRTA/Pubnative (= 0.4.9)
+    - KwizzadRTA/SpotX (= 0.4.9)
+  - KwizzadRTA/AAT (0.4.9):
     - AATKit/Core (= 2.68.15)
     - AATKit/Inmobi (= 2.68.15)
     - AATKit/Mopub (= 2.68.15)
@@ -73,30 +74,33 @@ PODS:
     - AATKit/Unity (= 2.68.15)
     - AATKit/Vungle (= 2.68.15)
     - KwizzadRTA/Core
-  - KwizzadRTA/AdColony (0.4.8):
+  - KwizzadRTA/AdColony (0.4.9):
     - AdColony (= 4.1.2)
     - KwizzadRTA/Core
-  - KwizzadRTA/Admob (0.4.8):
+  - KwizzadRTA/Admob (0.4.9):
     - Google-Mobile-Ads-SDK (= 7.50.0)
     - KwizzadRTA/Core
-  - KwizzadRTA/AppLovin (0.4.8):
+  - KwizzadRTA/AppLovin (0.4.9):
     - AppLovinSDK (= 6.10.2)
     - KwizzadRTA/Core
-  - KwizzadRTA/Core (0.4.8):
+  - KwizzadRTA/Core (0.4.9):
     - FBSDKCoreKit (= 5.15.0)
-  - KwizzadRTA/FeedAd (0.4.8):
+  - KwizzadRTA/FeedAd (0.4.9):
     - FeedAd (= 1.1.10)
     - KwizzadRTA/Core
-  - KwizzadRTA/GoogleIMA (0.4.8):
+  - KwizzadRTA/GoogleIMA (0.4.9):
     - GoogleAds-IMA-iOS-SDK (= 3.9.0)
     - KwizzadRTA/Core
-  - KwizzadRTA/Inneractive (0.4.8):
+  - KwizzadRTA/Inneractive (0.4.9):
     - KwizzadRTA/Core
     - RTAInneractive (= 7.5.0)
-  - KwizzadRTA/Pubnative (0.4.8):
+  - KwizzadRTA/IronSource (0.4.9):
+    - KwizzadRTA/Core
+    - RTAIronSource (= 6.10.0)
+  - KwizzadRTA/Pubnative (0.4.9):
     - HyBid (= 1.4.1)
     - KwizzadRTA/Core
-  - KwizzadRTA/SpotX (0.4.8):
+  - KwizzadRTA/SpotX (0.4.9):
     - KwizzadRTA/Core
     - SpotX-SDK (= 4.2.1)
     - SpotX-SDK-MOAT (= 4.2.1)
@@ -106,6 +110,7 @@ PODS:
   - nanopb/decode (0.3.9011)
   - nanopb/encode (0.3.9011)
   - RTAInneractive (7.5.0)
+  - RTAIronSource (6.10.0)
   - SmaatoSDK (10.2.3)
   - Smart-Core-SDK (7.3.0)
   - Smart-Display-SDK (7.2.0):
@@ -117,7 +122,7 @@ PODS:
   - VungleSDK-iOS (6.3.2)
 
 DEPENDENCIES:
-  - KwizzadRTA (= 0.4.8)
+  - KwizzadRTA (= 0.4.9)
 
 SPEC REPOS:
   trunk:
@@ -135,6 +140,7 @@ SPEC REPOS:
     - KwizzadRTA
     - nanopb
     - RTAInneractive
+    - RTAIronSource
     - SmaatoSDK
     - Smart-Core-SDK
     - Smart-Display-SDK
@@ -155,9 +161,10 @@ SPEC CHECKSUMS:
   GoogleUtilities: 06eb53bb579efe7099152735900dd04bf09e7275
   HyBid: 806c957d8aed3dad03d0b381e42a51788a0debe0
   InMobiSDK: 8fefc109960ff4603970fd81761685d8ef5c03d6
-  KwizzadRTA: 01909f7814115cbeed35dce8b755c924e88a8a0a
+  KwizzadRTA: 680bd96dd87fc7bb4a940cf7ccd48486dcaf5848
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   RTAInneractive: 7314b9d4ca5034365364b5b5e9703122580de736
+  RTAIronSource: f0f2aab91d35823331334d065cdd2e95f83756e5
   SmaatoSDK: c71e8292ba1a1a6a6367a0a11f540322edd023da
   Smart-Core-SDK: d3dc366a1af946d13d737ee211d5be33dc1ed60b
   Smart-Display-SDK: d84aadc873e6007568567105e9e07dfc12ff7dce
@@ -166,6 +173,6 @@ SPEC CHECKSUMS:
   UnityAds: ff7c0f477873f40daccd7c0bd0b656cb6cf5a2e5
   VungleSDK-iOS: 69a7f407b60281d2954ffc5eeeac349fbfed51d6
 
-PODFILE CHECKSUM: 509e29d659f521ee1d8f43ed8e7a021d5f13669f
+PODFILE CHECKSUM: 94928e581267cb9b619bdc97ba95938cf063fa8e
 
 COCOAPODS: 1.8.4
