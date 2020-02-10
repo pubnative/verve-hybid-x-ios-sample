@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         KwizzadRTA.setTestMode(true)
         KwizzadRTA.setDebugMode(true)
-        KwizzadRTA.configure(with: "rta_ios") { (status) in }
+        KwizzadRTA.configure(with: "rta_ios_test_2") { (status) in }
 
         return true
     }
