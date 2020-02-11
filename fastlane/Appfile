@@ -1,0 +1,3 @@
+app_identifier("net.pubnative.public.RTASample") # The bundle identifier of your app
+apple_id("fares.benhamouda@pubnative.net") # Your Apple email address
+team_id("TL55SBB4FM") # Developer Portal Team ID
