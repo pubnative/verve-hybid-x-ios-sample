@@ -5,9 +5,6 @@ version: 2.1
 
 jobs:
   build:
-    branches:
-      only:
-        - circle-ci
     macos:
       xcode: 11.0.0 # Specify the Xcode version to use
 
@@ -24,3 +21,10 @@ jobs:
           path: test_output
           destination: scan-output
 
+workflows:
+build-deploy:
+  jobs:
+    - build:
+        filters:
+          branches:
+            only: circle-ci
