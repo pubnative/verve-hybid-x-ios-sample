@@ -5,4 +5,4 @@ storage_mode("git")
 type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
 
 app_identifier("net.pubnative.public.RTASample")
-username("fares.benhamouda@pubnative.net") # Your Apple Developer Portal username
+username("eros.ponte@pubnative.net") # Your Apple Developer Portal username
