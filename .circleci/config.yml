@@ -11,8 +11,13 @@ jobs:
     steps:
       - checkout
       - run: pod install # Install CocoaPods dependencies
+      - run:
+        name: Bundle Install
+        command: bundle check || bundle install
+        paths:
+          - vendor/bundle
       - run: curl -sL firebase.tools | bash
-      - run: fastlane deploy_firebase
+      - run: bundle exec fastlane deploy_firebase
 
       - store_test_results:
           path: test_output
