@@ -1,0 +1,25 @@
+default_platform(:ios)
+
+platform :ios do
+
+  before_all do
+    setup_circle_ci
+  end
+
+  desc "Deploy to Firebase"
+  lane :deploy_firebase do
+    match
+    gym(
+      workspace: "KwizzadRTASample.xcworkspace",
+      scheme: "KwizzadRTASample",
+      include_bitcode: true,
+      include_symbols: true,
+      export_options: {
+        method: "ad-hoc"
+      }
+    )
+    firebase_app_distribution(
+      app: "1:1023184476189:ios:5a5c3f6762fff76110cef4"
+    )
+  end
+end

@@ -1,0 +1,50 @@
+# For a detailed guide to building and testing on iOS, read the docs:
+# https://circleci.com/docs/2.0/testing-ios/
+
+version: 2.1
+
+jobs:
+  build:
+    macos:
+      xcode: "11.3.0"
+
+    steps:
+      - checkout
+      - run:
+            name: Install CocoaPods dependencies
+            command: pod install
+   
+      - restore_cache:
+            key: 1-gems-{{ checksum "Gemfile.lock" }}
+ 
+      - run:
+            name: Export Env
+            command: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test"\nexport LC_ALL=en_US.UTF-8\nexport LC_ALL=en_US.UTF-8 >> $BASH_ENV
+
+      - run:
+            name: Install Bundle
+            command: bundle check || bundle install
+            paths:
+                - vendor/bundle
+            
+      - run:
+            name: Install Firebase tools
+            command: curl -sL firebase.tools | bash
+    
+      - run:
+            name: Build and Deploy to Firebase
+            command: bundle exec fastlane deploy_firebase --verbose
+      
+      - store_test_results:
+          path: test_output
+      - store_artifacts:
+          path: test_output
+          destination: scan-output
+
+workflows:
+build-deploy:
+  jobs:
+    - build:
+        filters:
+          branches:
+            only: circle-ci
