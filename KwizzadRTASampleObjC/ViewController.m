@@ -17,18 +17,18 @@
 
 @implementation ViewController
 
-KwizzadRTA* kwizzad;
+KwizzadPlacement* kwizzad;
 NSString* placement = @"test";
 
 - (void) viewDidLoad {
     [super viewDidLoad];
     [self setTitle:@"KwizzadRTA Sample ObjC"];
     
-    kwizzad = [[KwizzadRTA alloc]init];
+    kwizzad = [[KwizzadPlacement alloc]initWith:placement delegate:self];
 }
 
 - (IBAction)loadAdClicked:(id)sender {
-    [kwizzad loadWithPlacement:@"test" delegate:self];
+    [kwizzad load];
     [_debugTextView insertText: [NSString stringWithFormat:@"\n start loading placement %@", placement]];
 }
 
