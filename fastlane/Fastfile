@@ -19,7 +19,7 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:1023184476189:ios:bfb6f4f3c8a1757910cef4"
+      app: "1:1023184476189:ios:5a5c3f6762fff76110cef4"
     )
   end
 end
