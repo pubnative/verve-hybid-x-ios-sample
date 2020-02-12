@@ -19,8 +19,7 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:1023184476189:ios:bfb6f4f3c8a1757910cef4",
-      firebase_cli_path: "/usr/local/bin/firebase"
+      app: "1:1023184476189:ios:bfb6f4f3c8a1757910cef4"
     )
   end
 end
