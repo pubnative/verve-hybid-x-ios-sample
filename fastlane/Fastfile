@@ -1,0 +1,45 @@
+default_platform(:ios)
+
+platform :ios do
+
+  before_all do
+    setup_circle_ci
+  end
+  
+  desc "Code signing"
+  lane :certificates do
+    match(app_identifier: ["net.pubnative.public.RTASampleObjC", "net.pubnative.public.RTASample"])
+  end
+
+  desc "Deploy to Firebase"
+  lane :deploy_swift_firebase do
+    gym(
+      workspace: "KwizzadRTASample.xcworkspace",
+      scheme: "KwizzadRTASample",
+      include_bitcode: true,
+      include_symbols: true,
+      export_options: {
+        method: "ad-hoc"
+      }
+    )
+    firebase_app_distribution(
+      app: "1:1023184476189:ios:5a5c3f6762fff76110cef4"
+    )
+  end
+
+  lane :deploy_objc_firebase do
+    gym(
+      workspace: "KwizzadRTASample.xcworkspace",
+      scheme: "KwizzadRTASampleObjC",
+      include_bitcode: true,
+      include_symbols: true,
+      export_options: {
+        method: "ad-hoc"
+      }
+    )
+    firebase_app_distribution(
+      app: "1:1023184476189:ios:b1c683cc686afccd10cef4"
+    )
+  end
+
+end
