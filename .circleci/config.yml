@@ -50,9 +50,9 @@ jobs:
           destination: scan-output
 
 workflows:
-build-deploy:
-  jobs:
-    - build:
-        filters:
-          branches:
-            only: circle-ci
+    build-deploy-to-firebase:
+      jobs:
+        - build:
+            filters:
+              branches:
+                only: develop
