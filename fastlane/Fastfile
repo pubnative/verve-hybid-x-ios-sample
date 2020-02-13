@@ -23,7 +23,8 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:1023184476189:ios:5a5c3f6762fff76110cef4"
+      app: "1:1023184476189:ios:5a5c3f6762fff76110cef4",
+      groups: "QA, internal"
     )
   end
 
@@ -38,7 +39,8 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:1023184476189:ios:b1c683cc686afccd10cef4"
+      app: "1:1023184476189:ios:b1c683cc686afccd10cef4",
+      groups: "QA, internal"
     )
   end
 
