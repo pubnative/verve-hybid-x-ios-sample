@@ -16,11 +16,21 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios deploy_firebase
+### ios certificates
 ```
-fastlane ios deploy_firebase
+fastlane ios certificates
+```
+Code signing
+### ios deploy_swift_firebase
+```
+fastlane ios deploy_swift_firebase
 ```
 Deploy to Firebase
+### ios deploy_objc_firebase
+```
+fastlane ios deploy_objc_firebase
+```
+
 
 ----
 
