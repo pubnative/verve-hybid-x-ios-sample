@@ -36,6 +36,10 @@ jobs:
           command: bundle exec fastlane certificates
           
       - run:
+          name: Increment Version
+          command: ./increment_version.sh
+                
+      - run:
             name: Build and Deploy Swift App to Firebase
             command: bundle exec fastlane deploy_swift_firebase --verbose
             
