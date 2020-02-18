@@ -12,7 +12,7 @@ import KwizzadRTA
 class ViewController: UIViewController {
 
     var kwizzad: KwizzadPlacement?
-    let placement = "premium"
+    let placement = "test"
 
     @IBOutlet weak var buttonShowAd: UIButton!
     @IBOutlet weak var textViewDebug: UITextView!
