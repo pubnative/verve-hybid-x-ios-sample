@@ -9,6 +9,10 @@
 import UIKit
 import KwizzadRTA
 
+// CONFIGUTRATION
+var sdkToken = "rta_ios"
+var placement = "test"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         KwizzadRTA.setTestMode(true)
         KwizzadRTA.setDebugMode(true)
-        KwizzadRTA.configure(with: "rta_ios") { (status) in }
+        KwizzadRTA.configure(with: sdkToken) { (status) in }
 
         return true
     }

@@ -12,20 +12,33 @@ import KwizzadRTA
 class ViewController: UIViewController {
 
     var kwizzad: KwizzadPlacement?
-    let placement = "test"
 
     @IBOutlet weak var buttonShowAd: UIButton!
     @IBOutlet weak var textViewDebug: UITextView!
+    @IBOutlet weak var labelVersion: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "KwizzadRTA Sample"
-        self.kwizzad = KwizzadPlacement(with: placement, delegate: self)
+        labelVersion.text?.append(KwizzadRTA.sdkVersion())
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.kwizzad = KwizzadPlacement(with: placement, delegate: self)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
+            self.kwizzad?.load()
+            self.textViewDebug.appendText(with: "start loading placement \(placement)")
+        }
+    }
+    
     @IBAction func loadAdClicked(_ sender: Any) {
-        self.kwizzad?.load()
-        self.textViewDebug.appendText(with: "start loading placement \(self.placement)")
+        self.kwizzad?.preloadAdsManually()
+        self.textViewDebug.appendText(with: "reloading placement \(placement)")
     }
     
     @IBAction func showAdClicked(_ sender: Any) {
@@ -76,7 +89,7 @@ extension ViewController: KwizzadRTADelegate {
     //optionals callbacks
     func onAdOpened(placementId: String) {}
     func onAdClicked(placementId: String) {}
-    
+    func onConsentShouldBeUpdated(placementId: String) {}
 }
 
 // MARK: Helpers
