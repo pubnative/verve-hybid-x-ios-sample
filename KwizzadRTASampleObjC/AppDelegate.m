@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import "Config.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +21,11 @@
     
     [KwizzadRTA setTestMode:YES];
     [KwizzadRTA setDebugMode:YES];
-    
-    [KwizzadRTA configureWith:@"rta_ios" completion:^(BOOL finished) {
+
+    Config* config = [Config sharedInstance];
+    config.sdkToken = @"rta_ios";
+    config.placement = @"test";
+    [KwizzadRTA configureWith:config.sdkToken completion:^(BOOL finished) {
     }];
     
     return YES;

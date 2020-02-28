@@ -8,28 +8,43 @@
 
 #import "ViewController.h"
 #import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import "Config.h"
+
 @interface ViewController () <KwizzadRTADelegate>
 
 @property (weak, nonatomic) IBOutlet UITextView *debugTextView;
 @property (weak, nonatomic) IBOutlet UIButton *btnShowAd;
+@property (weak, nonatomic) IBOutlet UILabel *labelSDKVersion;
 
 @end
 
 @implementation ViewController
 
 KwizzadPlacement* kwizzad;
-NSString* placement = @"test";
 
 - (void) viewDidLoad {
     [super viewDidLoad];
     [self setTitle:@"KwizzadRTA Sample ObjC"];
     
-    kwizzad = [[KwizzadPlacement alloc]initWith:placement delegate:self];
+    _labelSDKVersion.text = [NSString stringWithFormat:@"SDK Version: %@", [KwizzadRTA sdkVersion]];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    kwizzad = [[KwizzadPlacement alloc]initWith:[Config sharedInstance].placement delegate:self];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [kwizzad load];
+        [self->_debugTextView insertText: [NSString stringWithFormat:@"\n start loading placement %@", [Config sharedInstance].placement]];
+    });
 }
 
 - (IBAction)loadAdClicked:(id)sender {
-    [kwizzad load];
-    [_debugTextView insertText: [NSString stringWithFormat:@"\n start loading placement %@", placement]];
+    [kwizzad preloadAdsManually];
+    [_debugTextView insertText: [NSString stringWithFormat:@"\n reloading placement %@", [Config sharedInstance].placement]];
 }
 
 - (IBAction)showAdClicked:(id)sender {
@@ -75,4 +90,6 @@ NSString* placement = @"test";
 }
 
 
+- (IBAction)textFieldSDKToken:(id)sender {
+}
 @end
