@@ -82,6 +82,13 @@ NSArray* genders;
     return genders[row];
 }
 
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [self.view endEditing:YES];
+}
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self.view endEditing:YES];
+    return YES;
+}
 
 @end
