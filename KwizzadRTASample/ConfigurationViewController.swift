@@ -30,18 +30,18 @@ class ConfigurationViewController: UIViewController {
         textFieldPlacement.text = placement
         pickerViewGender.selectRow(genders.count-1, inComponent: 0, animated: false)
 
-        let userData = KwizzadRTA.userData()
+        let userData: [String: Any] = KwizzadRTA.userData()
         
-        if let userID = userData.userID {
+        if let userID = userData["userID"] as? String {
             textFieldUserID.text = userID
         }
         
-        if let age = userData.age {
+        if let age = userData["age"] as? Int {
             textFieldAge.text = "\(age)"
         }
         
-        if let gender = userData.gender {
-            pickerViewGender.selectRow(genders.firstIndex(of: gender.rawValue) ?? genders.count-1, inComponent: 0, animated: false)
+        if let gender = userData["gender"] as? String {
+            pickerViewGender.selectRow(genders.firstIndex(of: gender) ?? genders.count-1, inComponent: 0, animated: false)
         }
     }
 
