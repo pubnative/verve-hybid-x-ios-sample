@@ -598,8 +598,8 @@
 			baseConfigurationReference = 00D032C815577111D86291BF /* Pods-KwizzadRTASampleObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = KwizzadRTASampleObjC/Info.plist;
@@ -610,7 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASampleObjC;
 				PRODUCT_NAME = KwizzadRTASampleObjC;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.RTASampleObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -620,8 +620,8 @@
 			baseConfigurationReference = 31DB3D33EF331A498EE48740 /* Pods-KwizzadRTASampleObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = KwizzadRTASampleObjC/Info.plist;
@@ -632,7 +632,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASampleObjC;
 				PRODUCT_NAME = KwizzadRTASampleObjC;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.RTASampleObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
