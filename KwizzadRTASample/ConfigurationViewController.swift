@@ -36,8 +36,8 @@ class ConfigurationViewController: UIViewController {
             textFieldUserID.text = userID
         }
         
-        if let age = userData["age"] as? Int {
-            textFieldAge.text = "\(age)"
+        if let ageString = userData["age"] as? String {
+            textFieldAge.text = ageString
         }
         
         if let gender = userData["gender"] as? String {
@@ -94,6 +94,10 @@ extension ConfigurationViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return true
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
     
 }
