@@ -87,9 +87,15 @@ extension ViewController: KwizzadRTADelegate {
     }
     
     //optionals callbacks
-    func onAdOpened(placementId: String) {}
-    func onAdClicked(placementId: String) {}
-    func onConsentShouldBeUpdated(placementId: String) {}
+    func onAdOpened(placementId: String) {
+        self.textViewDebug.appendText(with: "ad is opened on placement \(placementId)")
+    }
+    func onAdClicked(placementId: String) {
+        self.textViewDebug.appendText(with: "ad is clicked on placement \(placementId)")
+    }
+    func onConsentShouldBeUpdated(placementId: String) {
+        self.textViewDebug.appendText(with: "Consent not given or should be updated")
+    }
 }
 
 // MARK: Helpers

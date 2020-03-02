@@ -89,7 +89,16 @@ KwizzadPlacement* kwizzad;
     [_debugTextView insertText: [NSString stringWithFormat:@"\n a passback occured on placement %@", placementId]];
 }
 
-
-- (IBAction)textFieldSDKToken:(id)sender {
+- (void)onAdOpenedWithPlacementId:(NSString *)placementId {
+    [_debugTextView insertText: [NSString stringWithFormat:@"\n ad is opened on placement %@", placementId]];
 }
+
+- (void)onAdClickedWithPlacementId:(NSString *)placementId {
+    [_debugTextView insertText: [NSString stringWithFormat:@"\n ad is clicked on placement %@", placementId]];
+}
+
+- (void)onConsentShouldBeUpdatedWithPlacementId:(NSString *)placementId {
+    [_debugTextView insertText: [NSString stringWithFormat:@"\n Consent not given or should be updated"]];
+}
+
 @end
