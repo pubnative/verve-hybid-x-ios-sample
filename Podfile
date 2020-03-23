@@ -9,7 +9,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
-  pod 'KwizzadRTA', '0.6.0'
+  pod 'KwizzadRTA', '0.6.4'
 end
 
 target 'KwizzadRTASample' do

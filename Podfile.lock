@@ -1,109 +1,116 @@
 PODS:
-  - AATKit/Core (2.68.15)
-  - AATKit/Inmobi (2.68.15):
+  - AATKit/Core (2.69.3)
+  - AATKit/Inmobi (2.69.3):
     - AATKit/Core
-    - InMobiSDK (= 7.2.1)
-  - AATKit/Mopub (2.68.15):
+    - InMobiSDK (= 9.0.3)
+  - AATKit/Mopub (2.69.3):
     - AATKit/Core
-  - AATKit/Smaato (2.68.15):
+  - AATKit/Smaato (2.69.3):
     - AATKit/Core
-    - SmaatoSDK (= 10.2.3)
-  - AATKit/SmartAdServer (2.68.15):
+    - SmaatoSDK (= 10.2.5)
+  - AATKit/SmartAdServer (2.69.3):
     - AATKit/Core
-    - Smart-Display-SDK (= 7.2.0)
-  - AATKit/Unity (2.68.15):
+    - Smart-Display-SDK (= 7.4.0)
+  - AATKit/Unity (2.69.3):
     - AATKit/Core
-    - UnityAds (= 3.0.0)
-  - AATKit/Vungle (2.68.15):
+    - UnityAds (= 3.4.0)
+  - AATKit/Vungle (2.69.3):
     - AATKit/Core
-    - VungleSDK-iOS (= 6.3.2)
-  - AdColony (4.1.2)
-  - AppLovinSDK (6.10.2)
+    - VungleSDK-iOS (= 6.4.6)
+  - AdColony (4.1.4)
+  - AppLovinSDK (6.11.5)
   - FBSDKCoreKit (5.15.0):
     - FBSDKCoreKit/Basics (= 5.15.0)
     - FBSDKCoreKit/Core (= 5.15.0)
   - FBSDKCoreKit/Basics (5.15.0)
   - FBSDKCoreKit/Core (5.15.0):
     - FBSDKCoreKit/Basics
-  - FeedAd (1.1.10)
+  - FeedAd (1.1.11)
   - Google-Mobile-Ads-SDK (7.50.0):
     - GoogleAppMeasurement (~> 6.0)
-  - GoogleAds-IMA-iOS-SDK (3.9.0)
-  - GoogleAppMeasurement (6.3.0):
+  - GoogleAds-IMA-iOS-SDK (3.11.3)
+  - GoogleAppMeasurement (6.3.1):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
     - GoogleUtilities/Network (~> 6.0)
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
     - nanopb (= 0.3.9011)
-  - GoogleUtilities/AppDelegateSwizzler (6.5.1):
+  - GoogleUtilities/AppDelegateSwizzler (6.5.2):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (6.5.1)
-  - GoogleUtilities/Logger (6.5.1):
+  - GoogleUtilities/Environment (6.5.2)
+  - GoogleUtilities/Logger (6.5.2):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (6.5.1):
+  - GoogleUtilities/MethodSwizzler (6.5.2):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (6.5.1):
+  - GoogleUtilities/Network (6.5.2):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (6.5.1)"
-  - GoogleUtilities/Reachability (6.5.1):
+  - "GoogleUtilities/NSData+zlib (6.5.2)"
+  - GoogleUtilities/Reachability (6.5.2):
     - GoogleUtilities/Logger
   - HyBid (1.4.2)
-  - InMobiSDK (7.2.1)
-  - KwizzadRTA (0.6.0):
-    - KwizzadRTA/AAT (= 0.6.0)
-    - KwizzadRTA/AdColony (= 0.6.0)
-    - KwizzadRTA/Admob (= 0.6.0)
-    - KwizzadRTA/AppLovin (= 0.6.0)
-    - KwizzadRTA/Core (= 0.6.0)
-    - KwizzadRTA/FeedAd (= 0.6.0)
-    - KwizzadRTA/GoogleIMA (= 0.6.0)
-    - KwizzadRTA/Inneractive (= 0.6.0)
-    - KwizzadRTA/IronSource (= 0.6.0)
-    - KwizzadRTA/Pubnative (= 0.6.0)
-    - KwizzadRTA/SpotX (= 0.6.0)
-  - KwizzadRTA/AAT (0.6.0):
-    - AATKit/Core (= 2.68.15)
-    - AATKit/Inmobi (= 2.68.15)
-    - AATKit/Mopub (= 2.68.15)
-    - AATKit/Smaato (= 2.68.15)
-    - AATKit/SmartAdServer (= 2.68.15)
-    - AATKit/Unity (= 2.68.15)
-    - AATKit/Vungle (= 2.68.15)
+  - InMobiSDK (9.0.3):
+    - InMobiSDK/InMobiSDK (= 9.0.3)
+  - InMobiSDK/Core (9.0.3)
+  - InMobiSDK/InMobiSDK (9.0.3):
+    - InMobiSDK/Core
+    - InMobiSDK/Moat
+  - InMobiSDK/Moat (9.0.3):
+    - InMobiSDK/Core
+  - KwizzadRTA (0.6.4):
+    - KwizzadRTA/AAT (= 0.6.4)
+    - KwizzadRTA/AdColony (= 0.6.4)
+    - KwizzadRTA/Admob (= 0.6.4)
+    - KwizzadRTA/AppLovin (= 0.6.4)
+    - KwizzadRTA/Core (= 0.6.4)
+    - KwizzadRTA/FeedAd (= 0.6.4)
+    - KwizzadRTA/GoogleIMA (= 0.6.4)
+    - KwizzadRTA/Inneractive (= 0.6.4)
+    - KwizzadRTA/IronSource (= 0.6.4)
+    - KwizzadRTA/Pubnative (= 0.6.4)
+    - KwizzadRTA/SpotX (= 0.6.4)
+  - KwizzadRTA/AAT (0.6.4):
+    - AATKit/Core (= 2.69.3)
+    - AATKit/Inmobi (= 2.69.3)
+    - AATKit/Mopub (= 2.69.3)
+    - AATKit/Smaato (= 2.69.3)
+    - AATKit/SmartAdServer (= 2.69.3)
+    - AATKit/Unity (= 2.69.3)
+    - AATKit/Vungle (= 2.69.3)
     - KwizzadRTA/Core
-  - KwizzadRTA/AdColony (0.6.0):
-    - AdColony (= 4.1.2)
+  - KwizzadRTA/AdColony (0.6.4):
+    - AdColony (= 4.1.4)
     - KwizzadRTA/Core
-  - KwizzadRTA/Admob (0.6.0):
+  - KwizzadRTA/Admob (0.6.4):
     - Google-Mobile-Ads-SDK (= 7.50.0)
     - KwizzadRTA/Core
-  - KwizzadRTA/AppLovin (0.6.0):
-    - AppLovinSDK (= 6.10.2)
+  - KwizzadRTA/AppLovin (0.6.4):
+    - AppLovinSDK (= 6.11.5)
     - KwizzadRTA/Core
-  - KwizzadRTA/Core (0.6.0):
+  - KwizzadRTA/Core (0.6.4):
     - FBSDKCoreKit (= 5.15.0)
-  - KwizzadRTA/FeedAd (0.6.0):
-    - FeedAd (= 1.1.10)
+  - KwizzadRTA/FeedAd (0.6.4):
+    - FeedAd (= 1.1.11)
     - KwizzadRTA/Core
-  - KwizzadRTA/GoogleIMA (0.6.0):
-    - GoogleAds-IMA-iOS-SDK (= 3.9.0)
+  - KwizzadRTA/GoogleIMA (0.6.4):
+    - GoogleAds-IMA-iOS-SDK (= 3.11.3)
     - KwizzadRTA/Core
-  - KwizzadRTA/Inneractive (0.6.0):
+  - KwizzadRTA/Inneractive (0.6.4):
     - KwizzadRTA/Core
     - RTAInneractive (= 7.5.0)
-  - KwizzadRTA/IronSource (0.6.0):
+  - KwizzadRTA/IronSource (0.6.4):
     - KwizzadRTA/Core
     - RTAIronSource (= 6.10.0)
-  - KwizzadRTA/Pubnative (0.6.0):
+  - KwizzadRTA/Pubnative (0.6.4):
     - HyBid (= 1.4.2)
     - KwizzadRTA/Core
-  - KwizzadRTA/SpotX (0.6.0):
+  - KwizzadRTA/SpotX (0.6.4):
     - KwizzadRTA/Core
-    - SpotX-SDK (= 4.2.1)
-    - SpotX-SDK-MOAT (= 4.2.1)
+    - SpotX-SDK (= 4.6.1)
+    - SpotX-SDK-MOAT (= 4.6.1)
   - nanopb (0.3.9011):
     - nanopb/decode (= 0.3.9011)
     - nanopb/encode (= 0.3.9011)
@@ -111,18 +118,18 @@ PODS:
   - nanopb/encode (0.3.9011)
   - RTAInneractive (7.5.0)
   - RTAIronSource (6.10.0)
-  - SmaatoSDK (10.2.3)
-  - Smart-Core-SDK (7.4.0)
-  - Smart-Display-SDK (7.2.0):
-    - Smart-Core-SDK (~> 7.2)
-  - SpotX-SDK (4.2.1)
-  - SpotX-SDK-MOAT (4.2.1):
+  - SmaatoSDK (10.2.5)
+  - Smart-Core-SDK (7.5.0)
+  - Smart-Display-SDK (7.4.0):
+    - Smart-Core-SDK (~> 7.4)
+  - SpotX-SDK (4.6.1)
+  - SpotX-SDK-MOAT (4.6.1):
     - SpotX-SDK
-  - UnityAds (3.0.0)
-  - VungleSDK-iOS (6.3.2)
+  - UnityAds (3.4.0)
+  - VungleSDK-iOS (6.4.6)
 
 DEPENDENCIES:
-  - KwizzadRTA (= 0.6.0)
+  - KwizzadRTA (= 0.6.4)
 
 SPEC REPOS:
   trunk:
@@ -150,29 +157,29 @@ SPEC REPOS:
     - VungleSDK-iOS
 
 SPEC CHECKSUMS:
-  AATKit: 431d45cb26defb73119cbe1203793c36c27e0e7c
-  AdColony: 0a1e13349ce430ce29374c665611013fd78f792c
-  AppLovinSDK: d180201fff9afce92fb0e769a2ff4b564bd7f1db
+  AATKit: 3c52b42f9b9903300dadc282ef08a5138449e3ff
+  AdColony: fc02f429d6c4591567c7ae1426ebfcecb704b11f
+  AppLovinSDK: 2632c4b2f7fd8fefccf27507792a7c0cd3cec2fc
   FBSDKCoreKit: 083ba8c8e37939c0b4c84250654c9be0aef0c2f8
-  FeedAd: a893a5c2efc9b28f2955ab35e419f7eca6389f46
+  FeedAd: 698d218271d77574c2ad093f0747b568afc98c64
   Google-Mobile-Ads-SDK: d48dbaf5bae1ab7a94a9786f493c26c454bc6f16
-  GoogleAds-IMA-iOS-SDK: 8f57879738137b81a48ba792e42439e6bff5413b
-  GoogleAppMeasurement: 39ecba10918b21c83877d392246157f65db351cf
-  GoogleUtilities: 06eb53bb579efe7099152735900dd04bf09e7275
+  GoogleAds-IMA-iOS-SDK: 134b35758455576aaa6b3d2d3146699dcf8af4f1
+  GoogleAppMeasurement: c29d405ff76e18551b5d158eaba6753fda8c7542
+  GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
   HyBid: 164b2b1f00e7bec1292ab7b776af86bd9392298c
-  InMobiSDK: 8fefc109960ff4603970fd81761685d8ef5c03d6
-  KwizzadRTA: e8af70114e3d9d5c3ff2d053658f721555585893
+  InMobiSDK: 7386b53bdfc4282908ebc44d3781099cb9bbcde9
+  KwizzadRTA: ab08f80c78b17540da4e9579082344d05f3fa048
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   RTAInneractive: 7314b9d4ca5034365364b5b5e9703122580de736
   RTAIronSource: f0f2aab91d35823331334d065cdd2e95f83756e5
-  SmaatoSDK: c71e8292ba1a1a6a6367a0a11f540322edd023da
-  Smart-Core-SDK: 9b8aeae7a6537624ab33b9fa7174e16bb861676b
-  Smart-Display-SDK: d84aadc873e6007568567105e9e07dfc12ff7dce
-  SpotX-SDK: 58c7452b0aea7204b78228f0192837af0075e4fb
-  SpotX-SDK-MOAT: 158170163e9d864deb2f3c5c8e269f7a43a599b6
-  UnityAds: ff7c0f477873f40daccd7c0bd0b656cb6cf5a2e5
-  VungleSDK-iOS: 69a7f407b60281d2954ffc5eeeac349fbfed51d6
+  SmaatoSDK: 7f79f472b963901b803dd124e30bcfb340e1402d
+  Smart-Core-SDK: 0fcbfbe8bd3287f5f6c0ec40c5db2928e3d98634
+  Smart-Display-SDK: fa8c47b5ad2b1cd7125ad5a4cf8e760246b05a52
+  SpotX-SDK: c96ab86a48a96a820ab14b0d02b44daa4398bfe5
+  SpotX-SDK-MOAT: b1a27307b81dd2e955f73471d31b2bf41c0bb288
+  UnityAds: 3a60ca937078be375f5020deac747618c0baa931
+  VungleSDK-iOS: 6bf8b4fef32afc169acbc1291485560c81ceb293
 
-PODFILE CHECKSUM: ea30d852add8aaf46d84e9f7c4399ebbee0abfea
+PODFILE CHECKSUM: d33a80d1a7f1b9978d0110a7b2bfce8e2146d1ea
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.1
