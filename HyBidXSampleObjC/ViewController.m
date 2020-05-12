@@ -20,7 +20,7 @@
 
 @implementation ViewController
 
-HyBidXPlacement* kwizzad;
+HyBidXPlacement* placement;
 
 - (void) viewDidLoad {
     [super viewDidLoad];
@@ -31,32 +31,32 @@ HyBidXPlacement* kwizzad;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    kwizzad = [[HyBidXPlacement alloc]initWith:[Config sharedInstance].placement delegate:self];
+    placement = [[HyBidXPlacement alloc]initWith:[Config sharedInstance].placement delegate:self];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [kwizzad load];
+        [placement load];
         [self->_debugTextView insertText: [NSString stringWithFormat:@"\n start loading placement %@", [Config sharedInstance].placement]];
     });
 }
 
 - (IBAction)loadAdClicked:(id)sender {
-    [kwizzad preloadAdsManually];
+    [placement preloadAdsManually];
     [_debugTextView insertText: [NSString stringWithFormat:@"\n reloading placement %@", [Config sharedInstance].placement]];
 }
 
 - (IBAction)showAdClicked:(id)sender {
-    [kwizzad showAdFrom:self];
+    [placement showAdFrom:self];
 }
 
 - (IBAction)showDebugScreen:(id)sender {
-    [HyBidX showDebugScreenFrom:self instances: [NSArray arrayWithObjects: kwizzad, nil]];
+    [HyBidX showDebugScreenFrom:self instances: [NSArray arrayWithObjects: placement, nil]];
 }
 
 - (IBAction)showConsentScreen:(id)sender {
-    [HyBidX showConsentScreenFrom:self instances: [NSArray arrayWithObjects: kwizzad, nil] completion:^(BOOL consentGiven) {
+    [HyBidX showConsentScreenFrom:self instances: [NSArray arrayWithObjects: placement, nil] completion:^(BOOL consentGiven) {
         [self->_debugTextView insertText: [NSString stringWithFormat:@"\n consent status: %@", consentGiven ? @"true" : @"false"]];
     }];
 }

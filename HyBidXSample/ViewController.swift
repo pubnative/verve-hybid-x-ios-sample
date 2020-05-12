@@ -48,7 +48,7 @@ class ViewController: UIViewController {
 
     @IBAction func showDebugScreen(_ sender: Any) {
         guard let placement = placement else {return}
-        HyBidX.showDebugScreen(from: self, instances: [kwizzad])
+        HyBidX.showDebugScreen(from: self, instances: [placement])
     }
     
     @IBAction func showConsentScreen(_ sender: Any) {
