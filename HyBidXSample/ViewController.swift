@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import KwizzadRTA
+import HyBidX
 
 class ViewController: UIViewController {
 
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "KwizzadRTA Sample"
+        self.title = "HyBidX Sample (Swift)"
         labelVersion.text?.append(KwizzadRTA.sdkVersion())
     }
 

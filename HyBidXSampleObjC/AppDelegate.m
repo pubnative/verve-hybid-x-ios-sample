@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import <HyBidX/HyBidX-Swift.h>
 #import "Config.h"
 
 @interface AppDelegate ()
@@ -19,13 +19,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [KwizzadRTA setTestMode:YES];
-    [KwizzadRTA setDebugMode:YES];
+    [HyBidX setTestMode:YES];
+    [HyBidX setDebugMode:YES];
 
     Config* config = [Config sharedInstance];
     config.sdkToken = @"rta_ios";
     config.placement = @"test";
-    [KwizzadRTA configureWith:config.sdkToken completion:^(BOOL finished) {
+    [HyBidX configureWith:config.sdkToken completion:^(BOOL finished) {
     }];
     
     return YES;

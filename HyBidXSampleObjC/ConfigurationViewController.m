@@ -8,7 +8,7 @@
 
 #import "ConfigurationViewController.h"
 #import "Config.h"
-#import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import <HyBidX/HyBidX.h>
 
 @interface ConfigurationViewController ()
 
@@ -36,7 +36,7 @@ NSArray* genders;
     _textFieldPlacement.text = config.placement;
     [_pickerViewGender selectRow:genders.count-1 inComponent:0 animated:false];
     
-    NSDictionary* userData = [KwizzadRTA userData];
+    NSDictionary* userData = [HybidX userData];
     _textFieldUserID.text = userData[@"userID"];
     _textFieldAge.text = userData[@"age"];
     

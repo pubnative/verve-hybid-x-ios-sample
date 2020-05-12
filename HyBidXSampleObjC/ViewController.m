@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import <HyBidX/HyBidX.h>
 #import "Config.h"
 
 @interface ViewController () <KwizzadRTADelegate>

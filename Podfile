@@ -9,13 +9,13 @@ platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
-  pod 'KwizzadRTA', '0.6.5'
+  pod 'HyBidX', '0.6.8'
 end
 
-target 'KwizzadRTASample' do
+target 'HyBidXSample' do
   shared_pods
 end
 
-target 'KwizzadRTASampleObjC' do
+target 'HyBidXSampleObjC' do
   shared_pods
 end
