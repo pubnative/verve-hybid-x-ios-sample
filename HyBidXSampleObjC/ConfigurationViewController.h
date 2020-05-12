@@ -1,6 +1,6 @@
 //
 //  ConfigurationViewController.h
-//  KwizzadRTASampleObjC
+//  HyBidXSampleObjC
 //
 //  Created by Fares Ben Hamouda on 28.02.20.
 //  Copyright © 2020 Fares Ben Hamouda. All rights reserved.

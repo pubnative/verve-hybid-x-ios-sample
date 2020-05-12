@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  KwizzadRTASampleObjC
+//  HyBidXSampleObjC
 //
 //  Created by Fares Ben Hamouda on 07.01.20.
 //  Copyright © 2020 Fares Ben Hamouda. All rights reserved.
