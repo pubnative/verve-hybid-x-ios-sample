@@ -11,7 +11,7 @@ import HyBidX
 
 class ViewController: UIViewController {
 
-    var placement: HyBidXPlacement?
+    var hyBidXplacement: HyBidXPlacement?
 
     @IBOutlet weak var buttonShowAd: UIButton!
     @IBOutlet weak var textViewDebug: UITextView!
@@ -25,35 +25,35 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.placement = HyBidXPlacement(with: placement, delegate: self)
+        self.hyBidXplacement = HyBidXPlacement(with: placement, delegate: self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         DispatchQueue.main.asyncAfter(deadline: .now()+1) {
-            self.placement?.load()
+            self.hyBidXplacement?.load()
             self.textViewDebug.appendText(with: "start loading placement \(placement)")
         }
     }
     
     @IBAction func loadAdClicked(_ sender: Any) {
-        self.placement?.preloadAdsManually()
+        self.hyBidXplacement?.preloadAdsManually()
         self.textViewDebug.appendText(with: "reloading placement \(placement)")
     }
     
     @IBAction func showAdClicked(_ sender: Any) {
         HyBidX.setCustomParams(["test": "test"])
-        placement?.showAd(from: self)
+        hyBidXplacement?.showAd(from: self)
     }
 
     @IBAction func showDebugScreen(_ sender: Any) {
-        guard let placement = placement else {return}
-        HyBidX.showDebugScreen(from: self, instances: [placement])
+        guard let hyBidXplacement = hyBidXplacement else {return}
+        HyBidX.showDebugScreen(from: self, instances: [hyBidXplacement])
     }
     
     @IBAction func showConsentScreen(_ sender: Any) {
-        guard let placement = placement else {return}
-        HyBidX.showConsentScreen(from: self, instances: [placement]) { (consentGiven) in
+        guard let hyBidXplacement = hyBidXplacement else {return}
+        HyBidX.showConsentScreen(from: self, instances: [hyBidXplacement]) { (consentGiven) in
             self.textViewDebug.appendText(with: "consent status: \(consentGiven)")
         }
     }
