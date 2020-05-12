@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <HyBidX/HyBidX.h>
+#import <HyBidX/HyBidX-Swift.h>
 #import "Config.h"
 
 @interface ViewController () <HyBidXDelegate>

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <HyBidX/HyBidX.h>
+#import <HyBidX/HyBidX-Swift.h>
 #import "Config.h"
 
 @interface AppDelegate ()

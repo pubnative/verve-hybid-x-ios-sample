@@ -9,7 +9,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 def shared_pods
-  pod 'HyBidX', '0.6.8'
+  pod 'HyBidX', '0.6.9'
 end
 
 target 'HyBidXSample' do
