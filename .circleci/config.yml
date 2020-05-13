@@ -59,4 +59,4 @@ workflows:
         - build:
             filters:
               branches:
-                only: OMI-432-rebrand-sample-apps
+                only: master
