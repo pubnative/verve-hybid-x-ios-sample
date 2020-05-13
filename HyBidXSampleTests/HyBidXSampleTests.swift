@@ -1,15 +1,15 @@
 //
-//  KwizzadRTASampleTests.swift
-//  KwizzadRTASampleTests
+//  HyBidXSampleTests.swift
+//  HyBidXSampleTests
 //
 //  Created by Fares Ben Hamouda on 18.10.19.
 //  Copyright © 2019 Fares Ben Hamouda. All rights reserved.
 //
 
 import XCTest
-@testable import KwizzadRTASample
+@testable import HyBidXSample
 
-class KwizzadRTASampleTests: XCTestCase {
+class HyBidXSampleTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

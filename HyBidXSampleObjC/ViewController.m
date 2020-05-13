@@ -1,16 +1,16 @@
 //
 //  ViewController.m
-//  KwizzadRTASampleObjC
+//  HyBidXSampleObjC
 //
 //  Created by Fares Ben Hamouda on 07.01.20.
 //  Copyright © 2020 Fares Ben Hamouda. All rights reserved.
 //
 
 #import "ViewController.h"
-#import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import <HyBidX/HyBidX-Swift.h>
 #import "Config.h"
 
-@interface ViewController () <KwizzadRTADelegate>
+@interface ViewController () <HyBidXDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextView *debugTextView;
 @property (weak, nonatomic) IBOutlet UIButton *btnShowAd;
@@ -20,48 +20,48 @@
 
 @implementation ViewController
 
-KwizzadPlacement* kwizzad;
+HyBidXPlacement* placement;
 
 - (void) viewDidLoad {
     [super viewDidLoad];
-    [self setTitle:@"KwizzadRTA Sample ObjC"];
+    [self setTitle:@"HyBidX Sample (ObjC)"];
     
-    _labelSDKVersion.text = [NSString stringWithFormat:@"SDK Version: %@", [KwizzadRTA sdkVersion]];
+    _labelSDKVersion.text = [NSString stringWithFormat:@"SDK Version: %@", [HyBidX sdkVersion]];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    kwizzad = [[KwizzadPlacement alloc]initWith:[Config sharedInstance].placement delegate:self];
+    placement = [[HyBidXPlacement alloc]initWith:[Config sharedInstance].placement delegate:self];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [kwizzad load];
+        [placement load];
         [self->_debugTextView insertText: [NSString stringWithFormat:@"\n start loading placement %@", [Config sharedInstance].placement]];
     });
 }
 
 - (IBAction)loadAdClicked:(id)sender {
-    [kwizzad preloadAdsManually];
+    [placement preloadAdsManually];
     [_debugTextView insertText: [NSString stringWithFormat:@"\n reloading placement %@", [Config sharedInstance].placement]];
 }
 
 - (IBAction)showAdClicked:(id)sender {
-    [kwizzad showAdFrom:self];
+    [placement showAdFrom:self];
 }
 
 - (IBAction)showDebugScreen:(id)sender {
-    [KwizzadRTA showDebugScreenFrom:self instances: [NSArray arrayWithObjects: kwizzad, nil]];
+    [HyBidX showDebugScreenFrom:self instances: [NSArray arrayWithObjects: placement, nil]];
 }
 
 - (IBAction)showConsentScreen:(id)sender {
-    [KwizzadRTA showConsentScreenFrom:self instances: [NSArray arrayWithObjects: kwizzad, nil] completion:^(BOOL consentGiven) {
+    [HyBidX showConsentScreenFrom:self instances: [NSArray arrayWithObjects: placement, nil] completion:^(BOOL consentGiven) {
         [self->_debugTextView insertText: [NSString stringWithFormat:@"\n consent status: %@", consentGiven ? @"true" : @"false"]];
     }];
 }
 
-// MARK: KwizzadRTA Delegate
+// MARK: HyBidX Delegate
 
 - (void)onAdAvailableWithPlacementId:(NSString * _Nonnull)placementId {
     [_btnShowAd setEnabled:YES];

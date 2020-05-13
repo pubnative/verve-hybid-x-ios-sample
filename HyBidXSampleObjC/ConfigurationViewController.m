@@ -1,6 +1,6 @@
 //
 //  ConfigurationViewController.m
-//  KwizzadRTASampleObjC
+//  HyBidXSampleObjC
 //
 //  Created by Fares Ben Hamouda on 28.02.20.
 //  Copyright © 2020 Fares Ben Hamouda. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "ConfigurationViewController.h"
 #import "Config.h"
-#import <KwizzadRTA/KwizzadRTA-Swift.h>
+#import <HyBidX/HyBidX.h>
 
 @interface ConfigurationViewController ()
 
@@ -36,7 +36,7 @@ NSArray* genders;
     _textFieldPlacement.text = config.placement;
     [_pickerViewGender selectRow:genders.count-1 inComponent:0 animated:false];
     
-    NSDictionary* userData = [KwizzadRTA userData];
+    NSDictionary* userData = [HyBidX userData];
     _textFieldUserID.text = userData[@"userID"];
     _textFieldAge.text = userData[@"age"];
     
@@ -53,19 +53,19 @@ NSArray* genders;
         Config* config = [Config sharedInstance];
         if (![_textFieldSDKToken.text isEqual:[Config sharedInstance].sdkToken]) {
             config.sdkToken = _textFieldSDKToken.text;
-            [KwizzadRTA configureWith:config.sdkToken completion:nil];
+            [HyBidX configureWith:config.sdkToken completion:nil];
         }
         if (![_textFieldPlacement.text isEqual:[Config sharedInstance].placement]) {
             config.placement = _textFieldPlacement.text;
         }
         if (![_textFieldUserID.text isEqual:@""]) {
-            [KwizzadRTA identifyUserWith:_textFieldUserID.text];
+            [HyBidX identifyUserWith:_textFieldUserID.text];
         }
         if (![_textFieldAge.text isEqual:@""]) {
-            [KwizzadRTA setUserAgeWith: [_textFieldAge.text intValue]];
+            [HyBidX setUserAgeWith: [_textFieldAge.text intValue]];
         }
         if ([_pickerViewGender selectedRowInComponent:0] != genders.count-1) {
-            [KwizzadRTA setUserGenderWith:genders[ [_pickerViewGender selectedRowInComponent:0]]];
+            [HyBidX setUserGenderWith:genders[ [_pickerViewGender selectedRowInComponent:0]]];
         }
     }
 }

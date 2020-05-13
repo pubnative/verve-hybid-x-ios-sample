@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6221D38223C49AE900DD0721"
-               BuildableName = "KwizzadRTASampleObjC.app"
-               BlueprintName = "KwizzadRTASampleObjC"
-               ReferencedContainer = "container:KwizzadRTASample.xcodeproj">
+               BlueprintIdentifier = "7E524DB523592D7300AAAE78"
+               BuildableName = "HyBidXSample.app"
+               BlueprintName = "HyBidXSample"
+               ReferencedContainer = "container:HyBidXSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6221D39C23C49AEA00DD0721"
-               BuildableName = "KwizzadRTASampleObjCTests.xctest"
-               BlueprintName = "KwizzadRTASampleObjCTests"
-               ReferencedContainer = "container:KwizzadRTASample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -54,19 +44,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6221D38223C49AE900DD0721"
-            BuildableName = "KwizzadRTASampleObjC.app"
-            BlueprintName = "KwizzadRTASampleObjC"
-            ReferencedContainer = "container:KwizzadRTASample.xcodeproj">
+            BlueprintIdentifier = "7E524DB523592D7300AAAE78"
+            BuildableName = "HyBidXSample.app"
+            BlueprintName = "HyBidXSample"
+            ReferencedContainer = "container:HyBidXSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "NO">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -78,10 +61,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6221D38223C49AE900DD0721"
-            BuildableName = "KwizzadRTASampleObjC.app"
-            BlueprintName = "KwizzadRTASampleObjC"
-            ReferencedContainer = "container:KwizzadRTASample.xcodeproj">
+            BlueprintIdentifier = "7E524DB523592D7300AAAE78"
+            BuildableName = "HyBidXSample.app"
+            BlueprintName = "HyBidXSample"
+            ReferencedContainer = "container:HyBidXSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

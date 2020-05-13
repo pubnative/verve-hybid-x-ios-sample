@@ -17,14 +17,14 @@
 		622AC7E02409160300635A2F /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 622AC7DF2409160300635A2F /* ConfigurationViewController.m */; };
 		622AC7E2240922B500635A2F /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 622AC7E1240922B500635A2F /* Config.m */; };
 		62B9377E2406AB3800FA8F6B /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9377D2406AB3800FA8F6B /* ConfigurationViewController.swift */; };
-		749087CBB051BE7467FC28C3 /* Pods_KwizzadRTASampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD514EEA5B76D98D0DA726E3 /* Pods_KwizzadRTASampleObjC.framework */; };
 		7E524DBA23592D7300AAAE78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DB923592D7300AAAE78 /* AppDelegate.swift */; };
 		7E524DBE23592D7300AAAE78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DBD23592D7300AAAE78 /* ViewController.swift */; };
 		7E524DC123592D7300AAAE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DBF23592D7300AAAE78 /* Main.storyboard */; };
 		7E524DC323592D7400AAAE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC223592D7400AAAE78 /* Assets.xcassets */; };
 		7E524DC623592D7400AAAE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC423592D7400AAAE78 /* LaunchScreen.storyboard */; };
-		7E524DD123592D7400AAAE78 /* KwizzadRTASampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */; };
-		CD6F7A0AD3F5E7D7ED9D1FDE /* Pods_KwizzadRTASample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6D820AE05139314C64A72 /* Pods_KwizzadRTASample.framework */; };
+		7E524DD123592D7400AAAE78 /* HyBidXSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DD023592D7400AAAE78 /* HyBidXSampleTests.swift */; };
+		ADAA590E34CBD5A7FDF404B2 /* Pods_HyBidXSampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5261504804F3E60AF3AE6B0 /* Pods_HyBidXSampleObjC.framework */; };
+		DE3D9ADCC6D42F6CA440AEFD /* Pods_HyBidXSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5568FCAF5C7283EE4B085DA7 /* Pods_HyBidXSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00D032C815577111D86291BF /* Pods-KwizzadRTASampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
-		31DB3D33EF331A498EE48740 /* Pods-KwizzadRTASampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASampleObjC.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC.release.xcconfig"; sourceTree = "<group>"; };
-		6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067DA67532E4841D31DDE112 /* Pods-HyBidXSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSample.release.xcconfig"; path = "Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample.release.xcconfig"; sourceTree = "<group>"; };
+		5568FCAF5C7283EE4B085DA7 /* Pods_HyBidXSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyBidXSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6221D38323C49AE900DD0721 /* HyBidXSampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyBidXSampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6221D38523C49AE900DD0721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6221D38623C49AE900DD0721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6221D38B23C49AE900DD0721 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		6221D39423C49AE900DD0721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6221D39623C49AE900DD0721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6221D39723C49AE900DD0721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6221D39D23C49AEA00DD0721 /* HyBidXSampleObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyBidXSampleObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6221D3A123C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KwizzadRTASampleObjCTests.m; sourceTree = "<group>"; };
 		6221D3A323C49AEA00DD0721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		622AC7DE2409160300635A2F /* ConfigurationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
@@ -78,20 +78,20 @@
 		622AC7E1240922B500635A2F /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		622AC7E4240934BC00635A2F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		62B9377D2406AB3800FA8F6B /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
-		7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwizzadRTASample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E524DB623592D7300AAAE78 /* HyBidXSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyBidXSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DB923592D7300AAAE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E524DBD23592D7300AAAE78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E524DC023592D7300AAAE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E524DC223592D7400AAAE78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E524DC523592D7400AAAE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E524DC723592D7400AAAE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwizzadRTASampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KwizzadRTASampleTests.swift; sourceTree = "<group>"; };
+		7E524DCC23592D7400AAAE78 /* HyBidXSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyBidXSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E524DD023592D7400AAAE78 /* HyBidXSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyBidXSampleTests.swift; sourceTree = "<group>"; };
 		7E524DD223592D7400AAAE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEC6D820AE05139314C64A72 /* Pods_KwizzadRTASample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E54C753010F48F14434719F8 /* Pods-KwizzadRTASample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.debug.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.debug.xcconfig"; sourceTree = "<group>"; };
-		F7267D03D7D1A35AC267A2ED /* Pods-KwizzadRTASample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KwizzadRTASample.release.xcconfig"; path = "Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample.release.xcconfig"; sourceTree = "<group>"; };
-		FD514EEA5B76D98D0DA726E3 /* Pods_KwizzadRTASampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwizzadRTASampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5261504804F3E60AF3AE6B0 /* Pods_HyBidXSampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyBidXSampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D635FD2FF27D80D611B91B31 /* Pods-HyBidXSampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSampleObjC.release.xcconfig"; path = "Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC.release.xcconfig"; sourceTree = "<group>"; };
+		DD5713173A5DA72041AA228C /* Pods-HyBidXSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSample.debug.xcconfig"; path = "Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E252E5ABFE1882623FCA3685 /* Pods-HyBidXSampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749087CBB051BE7467FC28C3 /* Pods_KwizzadRTASampleObjC.framework in Frameworks */,
+				ADAA590E34CBD5A7FDF404B2 /* Pods_HyBidXSampleObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD6F7A0AD3F5E7D7ED9D1FDE /* Pods_KwizzadRTASample.framework in Frameworks */,
+				DE3D9ADCC6D42F6CA440AEFD /* Pods_HyBidXSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,24 +131,15 @@
 		0149EB749A95877AE9CC0880 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E54C753010F48F14434719F8 /* Pods-KwizzadRTASample.debug.xcconfig */,
-				F7267D03D7D1A35AC267A2ED /* Pods-KwizzadRTASample.release.xcconfig */,
-				00D032C815577111D86291BF /* Pods-KwizzadRTASampleObjC.debug.xcconfig */,
-				31DB3D33EF331A498EE48740 /* Pods-KwizzadRTASampleObjC.release.xcconfig */,
+				DD5713173A5DA72041AA228C /* Pods-HyBidXSample.debug.xcconfig */,
+				067DA67532E4841D31DDE112 /* Pods-HyBidXSample.release.xcconfig */,
+				E252E5ABFE1882623FCA3685 /* Pods-HyBidXSampleObjC.debug.xcconfig */,
+				D635FD2FF27D80D611B91B31 /* Pods-HyBidXSampleObjC.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		3E427B43B65BFE45DD7183AD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AEC6D820AE05139314C64A72 /* Pods_KwizzadRTASample.framework */,
-				FD514EEA5B76D98D0DA726E3 /* Pods_KwizzadRTASampleObjC.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6221D38423C49AE900DD0721 /* KwizzadRTASampleObjC */ = {
+		6221D38423C49AE900DD0721 /* HyBidXSampleObjC */ = {
 			isa = PBXGroup;
 			children = (
 				622AC7E4240934BC00635A2F /* Config.h */,
@@ -165,43 +156,43 @@
 				6221D39623C49AE900DD0721 /* Info.plist */,
 				6221D39723C49AE900DD0721 /* main.m */,
 			);
-			path = KwizzadRTASampleObjC;
+			path = HyBidXSampleObjC;
 			sourceTree = "<group>";
 		};
-		6221D3A023C49AEA00DD0721 /* KwizzadRTASampleObjCTests */ = {
+		6221D3A023C49AEA00DD0721 /* HyBidXSampleObjCTests */ = {
 			isa = PBXGroup;
 			children = (
 				6221D3A123C49AEA00DD0721 /* KwizzadRTASampleObjCTests.m */,
 				6221D3A323C49AEA00DD0721 /* Info.plist */,
 			);
-			path = KwizzadRTASampleObjCTests;
+			path = HyBidXSampleObjCTests;
 			sourceTree = "<group>";
 		};
 		7E524DAD23592D7300AAAE78 = {
 			isa = PBXGroup;
 			children = (
-				7E524DB823592D7300AAAE78 /* KwizzadRTASample */,
-				7E524DCF23592D7400AAAE78 /* KwizzadRTASampleTests */,
-				6221D38423C49AE900DD0721 /* KwizzadRTASampleObjC */,
-				6221D3A023C49AEA00DD0721 /* KwizzadRTASampleObjCTests */,
+				7E524DB823592D7300AAAE78 /* HyBidXSample */,
+				7E524DCF23592D7400AAAE78 /* HyBidXSampleTests */,
+				6221D38423C49AE900DD0721 /* HyBidXSampleObjC */,
+				6221D3A023C49AEA00DD0721 /* HyBidXSampleObjCTests */,
 				7E524DB723592D7300AAAE78 /* Products */,
 				0149EB749A95877AE9CC0880 /* Pods */,
-				3E427B43B65BFE45DD7183AD /* Frameworks */,
+				8D8C410B477992CD442A131C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7E524DB723592D7300AAAE78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */,
-				7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */,
-				6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */,
-				6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */,
+				7E524DB623592D7300AAAE78 /* HyBidXSample.app */,
+				7E524DCC23592D7400AAAE78 /* HyBidXSampleTests.xctest */,
+				6221D38323C49AE900DD0721 /* HyBidXSampleObjC.app */,
+				6221D39D23C49AEA00DD0721 /* HyBidXSampleObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E524DB823592D7300AAAE78 /* KwizzadRTASample */ = {
+		7E524DB823592D7300AAAE78 /* HyBidXSample */ = {
 			isa = PBXGroup;
 			children = (
 				7E524DB923592D7300AAAE78 /* AppDelegate.swift */,
@@ -212,44 +203,53 @@
 				7E524DC423592D7400AAAE78 /* LaunchScreen.storyboard */,
 				7E524DC723592D7400AAAE78 /* Info.plist */,
 			);
-			path = KwizzadRTASample;
+			path = HyBidXSample;
 			sourceTree = "<group>";
 		};
-		7E524DCF23592D7400AAAE78 /* KwizzadRTASampleTests */ = {
+		7E524DCF23592D7400AAAE78 /* HyBidXSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E524DD023592D7400AAAE78 /* KwizzadRTASampleTests.swift */,
+				7E524DD023592D7400AAAE78 /* HyBidXSampleTests.swift */,
 				7E524DD223592D7400AAAE78 /* Info.plist */,
 			);
-			path = KwizzadRTASampleTests;
+			path = HyBidXSampleTests;
+			sourceTree = "<group>";
+		};
+		8D8C410B477992CD442A131C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5568FCAF5C7283EE4B085DA7 /* Pods_HyBidXSample.framework */,
+				A5261504804F3E60AF3AE6B0 /* Pods_HyBidXSampleObjC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6221D38223C49AE900DD0721 /* KwizzadRTASampleObjC */ = {
+		6221D38223C49AE900DD0721 /* HyBidXSampleObjC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjC" */;
+			buildConfigurationList = 6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "HyBidXSampleObjC" */;
 			buildPhases = (
-				07AB9AA8E3CFAF7B753032C9 /* [CP] Check Pods Manifest.lock */,
+				B0994F0543B84B334D17CFE0 /* [CP] Check Pods Manifest.lock */,
 				6221D37F23C49AE900DD0721 /* Sources */,
 				6221D38023C49AE900DD0721 /* Frameworks */,
 				6221D38123C49AE900DD0721 /* Resources */,
-				92DD5118FF57827AB0A94F8F /* [CP] Embed Pods Frameworks */,
-				A211BBB23BE1F8371345380F /* [CP] Copy Pods Resources */,
+				92CF1048AD13871D610052CD /* [CP] Embed Pods Frameworks */,
+				81C437B06DBA17554891EF43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KwizzadRTASampleObjC;
+			name = HyBidXSampleObjC;
 			productName = KwizzadRTASampleObjC;
-			productReference = 6221D38323C49AE900DD0721 /* KwizzadRTASampleObjC.app */;
+			productReference = 6221D38323C49AE900DD0721 /* HyBidXSampleObjC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6221D39C23C49AEA00DD0721 /* KwizzadRTASampleObjCTests */ = {
+		6221D39C23C49AEA00DD0721 /* HyBidXSampleObjCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6221D3A723C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjCTests" */;
+			buildConfigurationList = 6221D3A723C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "HyBidXSampleObjCTests" */;
 			buildPhases = (
 				6221D39923C49AEA00DD0721 /* Sources */,
 				6221D39A23C49AEA00DD0721 /* Frameworks */,
@@ -260,35 +260,35 @@
 			dependencies = (
 				6221D39F23C49AEA00DD0721 /* PBXTargetDependency */,
 			);
-			name = KwizzadRTASampleObjCTests;
+			name = HyBidXSampleObjCTests;
 			productName = KwizzadRTASampleObjCTests;
-			productReference = 6221D39D23C49AEA00DD0721 /* KwizzadRTASampleObjCTests.xctest */;
+			productReference = 6221D39D23C49AEA00DD0721 /* HyBidXSampleObjCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7E524DB523592D7300AAAE78 /* KwizzadRTASample */ = {
+		7E524DB523592D7300AAAE78 /* HyBidXSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASample" */;
+			buildConfigurationList = 7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "HyBidXSample" */;
 			buildPhases = (
-				41D8B9A7378BE7AB02F098D2 /* [CP] Check Pods Manifest.lock */,
+				874C1875DEF273039EBFB258 /* [CP] Check Pods Manifest.lock */,
 				7E524DB223592D7300AAAE78 /* Sources */,
 				7E524DB323592D7300AAAE78 /* Frameworks */,
 				7E524DB423592D7300AAAE78 /* Resources */,
 				62E0C61823C395C90011DDE0 /* Embed Frameworks */,
-				032E2B24F0E35202AB304120 /* [CP] Embed Pods Frameworks */,
-				523A9EE31B7104B7B434A6FE /* [CP] Copy Pods Resources */,
+				666294683F015AA063F2BE34 /* [CP] Embed Pods Frameworks */,
+				0FD756BA19C040B71AFAB493 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KwizzadRTASample;
+			name = HyBidXSample;
 			productName = KwizzadRTASample;
-			productReference = 7E524DB623592D7300AAAE78 /* KwizzadRTASample.app */;
+			productReference = 7E524DB623592D7300AAAE78 /* HyBidXSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7E524DCB23592D7400AAAE78 /* KwizzadRTASampleTests */ = {
+		7E524DCB23592D7400AAAE78 /* HyBidXSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E524DD823592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleTests" */;
+			buildConfigurationList = 7E524DD823592D7400AAAE78 /* Build configuration list for PBXNativeTarget "HyBidXSampleTests" */;
 			buildPhases = (
 				7E524DC823592D7400AAAE78 /* Sources */,
 				7E524DC923592D7400AAAE78 /* Frameworks */,
@@ -299,9 +299,9 @@
 			dependencies = (
 				7E524DCE23592D7400AAAE78 /* PBXTargetDependency */,
 			);
-			name = KwizzadRTASampleTests;
+			name = HyBidXSampleTests;
 			productName = KwizzadRTASampleTests;
-			productReference = 7E524DCC23592D7400AAAE78 /* KwizzadRTASampleTests.xctest */;
+			productReference = 7E524DCC23592D7400AAAE78 /* HyBidXSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -330,7 +330,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E524DB123592D7300AAAE78 /* Build configuration list for PBXProject "KwizzadRTASample" */;
+			buildConfigurationList = 7E524DB123592D7300AAAE78 /* Build configuration list for PBXProject "HyBidXSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -343,10 +343,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E524DB523592D7300AAAE78 /* KwizzadRTASample */,
-				7E524DCB23592D7400AAAE78 /* KwizzadRTASampleTests */,
-				6221D38223C49AE900DD0721 /* KwizzadRTASampleObjC */,
-				6221D39C23C49AEA00DD0721 /* KwizzadRTASampleObjCTests */,
+				7E524DB523592D7300AAAE78 /* HyBidXSample */,
+				7E524DCB23592D7400AAAE78 /* HyBidXSampleTests */,
+				6221D38223C49AE900DD0721 /* HyBidXSampleObjC */,
+				6221D39C23C49AEA00DD0721 /* HyBidXSampleObjCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -389,24 +389,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		032E2B24F0E35202AB304120 /* [CP] Embed Pods Frameworks */ = {
+		0FD756BA19C040B71AFAB493 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		07AB9AA8E3CFAF7B753032C9 /* [CP] Check Pods Manifest.lock */ = {
+		666294683F015AA063F2BE34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C437B06DBA17554891EF43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874C1875DEF273039EBFB258 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,14 +455,31 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KwizzadRTASampleObjC-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HyBidXSample-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		41D8B9A7378BE7AB02F098D2 /* [CP] Check Pods Manifest.lock */ = {
+		92CF1048AD13871D610052CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0994F0543B84B334D17CFE0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -443,62 +494,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KwizzadRTASample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HyBidXSampleObjC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		523A9EE31B7104B7B434A6FE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASample/Pods-KwizzadRTASample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92DD5118FF57827AB0A94F8F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A211BBB23BE1F8371345380F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KwizzadRTASampleObjC/Pods-KwizzadRTASampleObjC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -538,7 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E524DD123592D7400AAAE78 /* KwizzadRTASampleTests.swift in Sources */,
+				7E524DD123592D7400AAAE78 /* HyBidXSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,12 +547,12 @@
 /* Begin PBXTargetDependency section */
 		6221D39F23C49AEA00DD0721 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6221D38223C49AE900DD0721 /* KwizzadRTASampleObjC */;
+			target = 6221D38223C49AE900DD0721 /* HyBidXSampleObjC */;
 			targetProxy = 6221D39E23C49AEA00DD0721 /* PBXContainerItemProxy */;
 		};
 		7E524DCE23592D7400AAAE78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E524DB523592D7300AAAE78 /* KwizzadRTASample */;
+			target = 7E524DB523592D7300AAAE78 /* HyBidXSample */;
 			targetProxy = 7E524DCD23592D7400AAAE78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -595,44 +595,44 @@
 /* Begin XCBuildConfiguration section */
 		6221D3A523C49AEA00DD0721 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00D032C815577111D86291BF /* Pods-KwizzadRTASampleObjC.debug.xcconfig */;
+			baseConfigurationReference = E252E5ABFE1882623FCA3685 /* Pods-HyBidXSampleObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = KwizzadRTASampleObjC/Info.plist;
+				INFOPLIST_FILE = HyBidXSampleObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASampleObjC;
-				PRODUCT_NAME = KwizzadRTASampleObjC;
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.RTASampleObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSampleObjC;
+				PRODUCT_NAME = HyBidXSampleObjC;
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.HyBidXSampleObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6221D3A623C49AEA00DD0721 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31DB3D33EF331A498EE48740 /* Pods-KwizzadRTASampleObjC.release.xcconfig */;
+			baseConfigurationReference = D635FD2FF27D80D611B91B31 /* Pods-HyBidXSampleObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = KwizzadRTASampleObjC/Info.plist;
+				INFOPLIST_FILE = HyBidXSampleObjC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASampleObjC;
-				PRODUCT_NAME = KwizzadRTASampleObjC;
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.RTASampleObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSampleObjC;
+				PRODUCT_NAME = HyBidXSampleObjC;
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.HyBidXSampleObjC";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -643,17 +643,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
-				INFOPLIST_FILE = KwizzadRTASampleObjCTests/Info.plist;
+				INFOPLIST_FILE = HyBidXSampleObjCTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.KwizzadRTASampleObjCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSampleObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwizzadRTASampleObjC.app/KwizzadRTASampleObjC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyBidXSampleObjC.app/HyBidXSampleObjC";
 			};
 			name = Debug;
 		};
@@ -663,17 +663,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
-				INFOPLIST_FILE = KwizzadRTASampleObjCTests/Info.plist;
+				INFOPLIST_FILE = HyBidXSampleObjCTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.KwizzadRTASampleObjCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSampleObjCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwizzadRTASampleObjC.app/KwizzadRTASampleObjC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyBidXSampleObjC.app/HyBidXSampleObjC";
 			};
 			name = Release;
 		};
@@ -793,7 +793,7 @@
 		};
 		7E524DD623592D7400AAAE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E54C753010F48F14434719F8 /* Pods-KwizzadRTASample.debug.xcconfig */;
+			baseConfigurationReference = DD5713173A5DA72041AA228C /* Pods-HyBidXSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -802,17 +802,17 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/KwizzadRTA/KwizzadRTA.framework/Base",
+					"$(PROJECT_DIR)/Pods/HyBidX/HyBidX.framework/Base",
 				);
-				INFOPLIST_FILE = KwizzadRTASample/Info.plist;
+				INFOPLIST_FILE = HyBidXSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.RTASample";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSample;
+				PRODUCT_NAME = HyBidXSample;
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.HyBidXSample";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -820,7 +820,7 @@
 		};
 		7E524DD723592D7400AAAE78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7267D03D7D1A35AC267A2ED /* Pods-KwizzadRTASample.release.xcconfig */;
+			baseConfigurationReference = 067DA67532E4841D31DDE112 /* Pods-HyBidXSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -829,17 +829,17 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Pods/KwizzadRTA/KwizzadRTA.framework/Base",
+					"$(PROJECT_DIR)/Pods/HyBidX/HyBidX.framework/Base",
 				);
-				INFOPLIST_FILE = KwizzadRTASample/Info.plist;
+				INFOPLIST_FILE = HyBidXSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.RTASample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.RTASample";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSample;
+				PRODUCT_NAME = HyBidXSample;
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.HyBidXSample";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -852,18 +852,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6VZFHJV8T;
-				INFOPLIST_FILE = KwizzadRTASampleTests/Info.plist;
+				INFOPLIST_FILE = HyBidXSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kwizzad.KwizzadRTASampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwizzadRTASample.app/KwizzadRTASample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyBidXSample.app/HyBidXSample";
 			};
 			name = Debug;
 		};
@@ -874,25 +874,25 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M6VZFHJV8T;
-				INFOPLIST_FILE = KwizzadRTASampleTests/Info.plist;
+				INFOPLIST_FILE = HyBidXSampleTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kwizzad.KwizzadRTASampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwizzadRTASample.app/KwizzadRTASample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyBidXSample.app/HyBidXSample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjC" */ = {
+		6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "HyBidXSampleObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6221D3A523C49AEA00DD0721 /* Debug */,
@@ -901,7 +901,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6221D3A723C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleObjCTests" */ = {
+		6221D3A723C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "HyBidXSampleObjCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6221D3A823C49AEA00DD0721 /* Debug */,
@@ -910,7 +910,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E524DB123592D7300AAAE78 /* Build configuration list for PBXProject "KwizzadRTASample" */ = {
+		7E524DB123592D7300AAAE78 /* Build configuration list for PBXProject "HyBidXSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E524DD323592D7400AAAE78 /* Debug */,
@@ -919,7 +919,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASample" */ = {
+		7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "HyBidXSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E524DD623592D7400AAAE78 /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E524DD823592D7400AAAE78 /* Build configuration list for PBXNativeTarget "KwizzadRTASampleTests" */ = {
+		7E524DD823592D7400AAAE78 /* Build configuration list for PBXNativeTarget "HyBidXSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E524DD923592D7400AAAE78 /* Debug */,

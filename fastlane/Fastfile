@@ -8,14 +8,14 @@ platform :ios do
   
   desc "Code signing"
   lane :certificates do
-    match(app_identifier: ["net.pubnative.public.RTASampleObjC", "net.pubnative.public.RTASample"])
+    match(app_identifier: ["net.pubnative.public.HyBidXSampleObjC", "net.pubnative.public.HyBidXSample"])
   end
 
   desc "Deploy to Firebase"
   lane :deploy_swift_firebase do
     gym(
-      workspace: "KwizzadRTASample.xcworkspace",
-      scheme: "KwizzadRTASample",
+      workspace: "HyBidXSample.xcworkspace",
+      scheme: "HyBidXSample",
       include_bitcode: true,
       include_symbols: true,
       export_options: {
@@ -23,15 +23,15 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:1023184476189:ios:5a5c3f6762fff76110cef4",
+      app: "1:1023184476189:ios:16812ecaf9de693d10cef4",
       groups: "QA, internal"
     )
   end
 
   lane :deploy_objc_firebase do
     gym(
-      workspace: "KwizzadRTASample.xcworkspace",
-      scheme: "KwizzadRTASampleObjC",
+      workspace: "HyBidXSample.xcworkspace",
+      scheme: "HyBidXSampleObjC",
       include_bitcode: true,
       include_symbols: true,
       export_options: {
@@ -39,7 +39,7 @@ platform :ios do
       }
     )
     firebase_app_distribution(
-      app: "1:1023184476189:ios:b1c683cc686afccd10cef4",
+      app: "1:1023184476189:ios:15ec52236c5c1c0710cef4",
       groups: "QA, internal"
     )
   end

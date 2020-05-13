@@ -1,13 +1,13 @@
 //
 //  ConfigurationViewController.swift
-//  KwizzadRTASample
+//  HyBidXSample
 //
 //  Created by Fares Ben Hamouda on 26.02.20.
 //  Copyright © 2020 Fares Ben Hamouda. All rights reserved.
 //
 
 import UIKit
-import KwizzadRTA
+import HyBidX
 
 class ConfigurationViewController: UIViewController {
 
@@ -30,7 +30,7 @@ class ConfigurationViewController: UIViewController {
         textFieldPlacement.text = placement
         pickerViewGender.selectRow(genders.count-1, inComponent: 0, animated: false)
 
-        let userData: [String: Any] = KwizzadRTA.userData()
+        let userData: [String: Any] = HyBidX.userData()
         
         if let userID = userData["userID"] as? String {
             textFieldUserID.text = userID
@@ -51,19 +51,19 @@ class ConfigurationViewController: UIViewController {
         if self.isMovingFromParent {
             if let textFieldSDKToken = textFieldSDKToken.text, textFieldSDKToken != sdkToken {
                 sdkToken = textFieldSDKToken
-                KwizzadRTA.configure(with: sdkToken)
+                HyBidX.configure(with: sdkToken)
             }
             if let textFieldPlacement = textFieldPlacement.text, textFieldPlacement != "" {
                 placement = textFieldPlacement
             }
             if let userID = textFieldUserID.text, userID != "" {
-                KwizzadRTA.identifyUser(with: userID)
+                HyBidX.identifyUser(with: userID)
             }
             if let ageString = textFieldAge.text, let age = Int(ageString) {
-                KwizzadRTA.setUserAge(with: age)
+                HyBidX.setUserAge(with: age)
             }
             if pickerViewGender.selectedRow(inComponent: 0) != genders.count-1 {
-                KwizzadRTA.setUserGender(with: genders[pickerViewGender.selectedRow(inComponent: 0)])
+                HyBidX.setUserGender(with: genders[pickerViewGender.selectedRow(inComponent: 0)])
             }
         }
     }

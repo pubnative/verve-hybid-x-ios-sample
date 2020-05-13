@@ -1,6 +1,6 @@
 //
-//  KwizzadRTASampleObjCTests.m
-//  KwizzadRTASampleObjCTests
+//  HyBidXSampleObjCTests.m
+//  HyBidXSampleObjCTests
 //
 //  Created by Fares Ben Hamouda on 07.01.20.
 //  Copyright © 2020 Fares Ben Hamouda. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface KwizzadRTASampleObjCTests : XCTestCase
+@interface HyBidXSampleObjCTests : XCTestCase
 
 @end
 
-@implementation KwizzadRTASampleObjCTests
+@implementation HyBidXSampleObjCTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
