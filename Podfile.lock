@@ -53,19 +53,19 @@ PODS:
   - GoogleUtilities/Reachability (6.6.0):
     - GoogleUtilities/Logger
   - HyBid (1.4.2)
-  - HyBidX (0.6.9):
-    - HyBidX/AAT (= 0.6.9)
-    - HyBidX/AdColony (= 0.6.9)
-    - HyBidX/Admob (= 0.6.9)
-    - HyBidX/AppLovin (= 0.6.9)
-    - HyBidX/Core (= 0.6.9)
-    - HyBidX/FeedAd (= 0.6.9)
-    - HyBidX/GoogleIMA (= 0.6.9)
-    - HyBidX/Inneractive (= 0.6.9)
-    - HyBidX/IronSource (= 0.6.9)
-    - HyBidX/Pubnative (= 0.6.9)
-    - HyBidX/SpotX (= 0.6.9)
-  - HyBidX/AAT (0.6.9):
+  - HyBidX (0.7.0):
+    - HyBidX/AAT (= 0.7.0)
+    - HyBidX/AdColony (= 0.7.0)
+    - HyBidX/Admob (= 0.7.0)
+    - HyBidX/AppLovin (= 0.7.0)
+    - HyBidX/Core (= 0.7.0)
+    - HyBidX/FeedAd (= 0.7.0)
+    - HyBidX/GoogleIMA (= 0.7.0)
+    - HyBidX/Inneractive (= 0.7.0)
+    - HyBidX/IronSource (= 0.7.0)
+    - HyBidX/Pubnative (= 0.7.0)
+    - HyBidX/SpotX (= 0.7.0)
+  - HyBidX/AAT (0.7.0):
     - AATKit/Core (= 2.69.3)
     - AATKit/Inmobi (= 2.69.3)
     - AATKit/Mopub (= 2.69.3)
@@ -74,33 +74,33 @@ PODS:
     - AATKit/Unity (= 2.69.3)
     - AATKit/Vungle (= 2.69.3)
     - HyBidX/Core
-  - HyBidX/AdColony (0.6.9):
+  - HyBidX/AdColony (0.7.0):
     - AdColony (= 4.1.4)
     - HyBidX/Core
-  - HyBidX/Admob (0.6.9):
+  - HyBidX/Admob (0.7.0):
     - Google-Mobile-Ads-SDK (= 7.50.0)
     - HyBidX/Core
-  - HyBidX/AppLovin (0.6.9):
+  - HyBidX/AppLovin (0.7.0):
     - AppLovinSDK (= 6.12.4)
     - HyBidX/Core
-  - HyBidX/Core (0.6.9):
+  - HyBidX/Core (0.7.0):
     - FBSDKCoreKit (= 5.15.0)
-  - HyBidX/FeedAd (0.6.9):
+  - HyBidX/FeedAd (0.7.0):
     - FeedAd (= 1.1.11)
     - HyBidX/Core
-  - HyBidX/GoogleIMA (0.6.9):
+  - HyBidX/GoogleIMA (0.7.0):
     - GoogleAds-IMA-iOS-SDK (= 3.11.3)
     - HyBidX/Core
-  - HyBidX/Inneractive (0.6.9):
+  - HyBidX/Inneractive (0.7.0):
     - HyBidX/Core
     - RTAInneractive (= 7.5.0)
-  - HyBidX/IronSource (0.6.9):
+  - HyBidX/IronSource (0.7.0):
     - HyBidX/Core
     - RTAIronSource (= 6.10.0)
-  - HyBidX/Pubnative (0.6.9):
+  - HyBidX/Pubnative (0.7.0):
     - HyBid (= 1.4.2)
     - HyBidX/Core
-  - HyBidX/SpotX (0.6.9):
+  - HyBidX/SpotX (0.7.0):
     - HyBidX/Core
     - SpotX-SDK (= 4.6.1)
     - SpotX-SDK-MOAT (= 4.6.1)
@@ -131,7 +131,7 @@ PODS:
   - VungleSDK-iOS (6.4.6)
 
 DEPENDENCIES:
-  - HyBidX (= 0.6.9)
+  - HyBidX (= 0.7.0)
 
 SPEC REPOS:
   trunk:
@@ -170,7 +170,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 4c644d86835d827bab30ab6aabb9ecaf1f500735
   GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
   HyBid: 164b2b1f00e7bec1292ab7b776af86bd9392298c
-  HyBidX: 29d2027191c57fde001f162499234ad4ddec4ec5
+  HyBidX: f74c897b054e075cc0b40f0f8e254e495b74beb0
   InMobiSDK: 7386b53bdfc4282908ebc44d3781099cb9bbcde9
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
@@ -184,6 +184,6 @@ SPEC CHECKSUMS:
   UnityAds: 3a60ca937078be375f5020deac747618c0baa931
   VungleSDK-iOS: 6bf8b4fef32afc169acbc1291485560c81ceb293
 
-PODFILE CHECKSUM: 917070ea5edb5dd0a5e7ac121cd031018eb72675
+PODFILE CHECKSUM: d9062fe1af8c5cc83a6d3aabc441f988eef37bdc
 
 COCOAPODS: 1.8.4

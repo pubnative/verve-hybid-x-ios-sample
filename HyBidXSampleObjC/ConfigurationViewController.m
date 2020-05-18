@@ -8,7 +8,7 @@
 
 #import "ConfigurationViewController.h"
 #import "Config.h"
-#import <HyBidX/HyBidX.h>
+#import <HyBidX/HyBidX-Swift.h>
 
 @interface ConfigurationViewController ()
 
