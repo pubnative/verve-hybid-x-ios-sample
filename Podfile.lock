@@ -17,8 +17,9 @@ PODS:
   - AATKit/Vungle (2.69.3):
     - AATKit/Core
     - VungleSDK-iOS (= 6.4.6)
-  - AdColony (4.1.4)
-  - AppLovinSDK (6.12.4)
+  - AdColony (4.1.5)
+  - AppLovinSDK (6.12.8)
+  - FairBidSDK (3.2.0)
   - FBSDKCoreKit (5.15.0):
     - FBSDKCoreKit/Basics (= 5.15.0)
     - FBSDKCoreKit/Core (= 5.15.0)
@@ -26,10 +27,10 @@ PODS:
   - FBSDKCoreKit/Core (5.15.0):
     - FBSDKCoreKit/Basics
   - FeedAd (1.1.11)
-  - Google-Mobile-Ads-SDK (7.50.0):
+  - Google-Mobile-Ads-SDK (7.60.0):
     - GoogleAppMeasurement (~> 6.0)
   - GoogleAds-IMA-iOS-SDK (3.11.3)
-  - GoogleAppMeasurement (6.5.1):
+  - GoogleAppMeasurement (6.6.1):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
     - GoogleUtilities/Network (~> 6.0)
@@ -52,20 +53,20 @@ PODS:
   - "GoogleUtilities/NSData+zlib (6.6.0)"
   - GoogleUtilities/Reachability (6.6.0):
     - GoogleUtilities/Logger
-  - HyBid (1.4.6-Beta)
-  - HyBidX (0.7.1):
-    - HyBidX/AAT (= 0.7.1)
-    - HyBidX/AdColony (= 0.7.1)
-    - HyBidX/Admob (= 0.7.1)
-    - HyBidX/AppLovin (= 0.7.1)
-    - HyBidX/Core (= 0.7.1)
-    - HyBidX/FeedAd (= 0.7.1)
-    - HyBidX/GoogleIMA (= 0.7.1)
-    - HyBidX/Inneractive (= 0.7.1)
-    - HyBidX/IronSource (= 0.7.1)
-    - HyBidX/Pubnative (= 0.7.1)
-    - HyBidX/SpotX (= 0.7.1)
-  - HyBidX/AAT (0.7.1):
+  - HyBid (1.4.6)
+  - HyBidX (0.7.7):
+    - HyBidX/AAT (= 0.7.7)
+    - HyBidX/AdColony (= 0.7.7)
+    - HyBidX/Admob (= 0.7.7)
+    - HyBidX/AppLovin (= 0.7.7)
+    - HyBidX/Core (= 0.7.7)
+    - HyBidX/FairBid (= 0.7.7)
+    - HyBidX/FeedAd (= 0.7.7)
+    - HyBidX/GoogleIMA (= 0.7.7)
+    - HyBidX/IronSource (= 0.7.7)
+    - HyBidX/Pubnative (= 0.7.7)
+    - HyBidX/SpotX (= 0.7.7)
+  - HyBidX/AAT (0.7.7):
     - AATKit/Core (= 2.69.3)
     - AATKit/Inmobi (= 2.69.3)
     - AATKit/Mopub (= 2.69.3)
@@ -74,36 +75,36 @@ PODS:
     - AATKit/Unity (= 2.69.3)
     - AATKit/Vungle (= 2.69.3)
     - HyBidX/Core
-  - HyBidX/AdColony (0.7.1):
-    - AdColony (= 4.1.4)
+  - HyBidX/AdColony (0.7.7):
+    - AdColony (= 4.1.5)
     - HyBidX/Core
-  - HyBidX/Admob (0.7.1):
-    - Google-Mobile-Ads-SDK (= 7.50.0)
+  - HyBidX/Admob (0.7.7):
+    - Google-Mobile-Ads-SDK (= 7.60.0)
     - HyBidX/Core
-  - HyBidX/AppLovin (0.7.1):
-    - AppLovinSDK (= 6.12.4)
+  - HyBidX/AppLovin (0.7.7):
+    - AppLovinSDK (= 6.12.8)
     - HyBidX/Core
-  - HyBidX/Core (0.7.1):
+  - HyBidX/Core (0.7.7):
     - FBSDKCoreKit (= 5.15.0)
-  - HyBidX/FeedAd (0.7.1):
+  - HyBidX/FairBid (0.7.7):
+    - FairBidSDK (= 3.2.0)
+    - HyBidX/Core
+  - HyBidX/FeedAd (0.7.7):
     - FeedAd (= 1.1.11)
     - HyBidX/Core
-  - HyBidX/GoogleIMA (0.7.1):
+  - HyBidX/GoogleIMA (0.7.7):
     - GoogleAds-IMA-iOS-SDK (= 3.11.3)
     - HyBidX/Core
-  - HyBidX/Inneractive (0.7.1):
-    - HyBidX/Core
-    - RTAInneractive (= 7.5.0)
-  - HyBidX/IronSource (0.7.1):
+  - HyBidX/IronSource (0.7.7):
     - HyBidX/Core
     - RTAIronSource (= 6.10.0)
-  - HyBidX/Pubnative (0.7.1):
-    - HyBid (= 1.4.6-Beta)
+  - HyBidX/Pubnative (0.7.7):
+    - HyBid (= 1.4.6)
     - HyBidX/Core
-  - HyBidX/SpotX (0.7.1):
+  - HyBidX/SpotX (0.7.7):
     - HyBidX/Core
-    - SpotX-SDK (= 4.6.1)
-    - SpotX-SDK-MOAT (= 4.6.1)
+    - SpotX-SDK (= 4.8.0)
+    - SpotX-SDK-MOAT (= 4.8.0)
   - InMobiSDK (9.0.3):
     - InMobiSDK/InMobiSDK (= 9.0.3)
   - InMobiSDK/Core (9.0.3)
@@ -117,27 +118,27 @@ PODS:
     - nanopb/encode (= 1.30905.0)
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
-  - PromisesObjC (1.2.8)
-  - RTAInneractive (7.5.0)
+  - PromisesObjC (1.2.9)
   - RTAIronSource (6.10.0)
   - SmaatoSDK (10.2.5)
   - Smart-Core-SDK (7.6.0)
   - Smart-Display-SDK (7.4.0):
     - Smart-Core-SDK (~> 7.4)
-  - SpotX-SDK (4.6.1)
-  - SpotX-SDK-MOAT (4.6.1):
+  - SpotX-SDK (4.8.0)
+  - SpotX-SDK-MOAT (4.8.0):
     - SpotX-SDK
   - UnityAds (3.4.0)
   - VungleSDK-iOS (6.4.6)
 
 DEPENDENCIES:
-  - HyBidX (= 0.7.1)
+  - HyBidX (= 0.7.7)
 
 SPEC REPOS:
   trunk:
     - AATKit
     - AdColony
     - AppLovinSDK
+    - FairBidSDK
     - FBSDKCoreKit
     - FeedAd
     - Google-Mobile-Ads-SDK
@@ -149,7 +150,6 @@ SPEC REPOS:
     - InMobiSDK
     - nanopb
     - PromisesObjC
-    - RTAInneractive
     - RTAIronSource
     - SmaatoSDK
     - Smart-Core-SDK
@@ -161,29 +161,29 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AATKit: 3c52b42f9b9903300dadc282ef08a5138449e3ff
-  AdColony: fc02f429d6c4591567c7ae1426ebfcecb704b11f
-  AppLovinSDK: 10c743633377202fdfc050f236f42f209999bde2
+  AdColony: 7d81ec360d5f14b2ab7569d482f6529a7c0bf457
+  AppLovinSDK: 0699feee7a8a3e55dc3a52e07d1b51cae0d27d56
+  FairBidSDK: 267a78cbb442b40de50a87fdceb146734cacbbf9
   FBSDKCoreKit: 083ba8c8e37939c0b4c84250654c9be0aef0c2f8
   FeedAd: 698d218271d77574c2ad093f0747b568afc98c64
-  Google-Mobile-Ads-SDK: d48dbaf5bae1ab7a94a9786f493c26c454bc6f16
+  Google-Mobile-Ads-SDK: d70efb31e7ea19fe99d466dc5d4788966b6914f8
   GoogleAds-IMA-iOS-SDK: 134b35758455576aaa6b3d2d3146699dcf8af4f1
-  GoogleAppMeasurement: 137afe68bfa406c3f4221b9395253d9e5d4654cf
+  GoogleAppMeasurement: 2fd5c5a56c069db635c8e7b92d4809a9591d0a69
   GoogleUtilities: 39530bc0ad980530298e9c4af8549e991fd033b1
-  HyBid: e8fe3557b8b2c19289081c4b84a3060adf2dc4e0
-  HyBidX: 1e39c40f6f63d9b2c451aaebf05db73ab637062d
+  HyBid: 125333a8957e3c48eb5ac25a10581654b3ef605a
+  HyBidX: ca2527d261e1d1b947d8b44fde6eba227f92fbec
   InMobiSDK: 7386b53bdfc4282908ebc44d3781099cb9bbcde9
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
-  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
-  RTAInneractive: 7314b9d4ca5034365364b5b5e9703122580de736
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   RTAIronSource: f0f2aab91d35823331334d065cdd2e95f83756e5
   SmaatoSDK: 7f79f472b963901b803dd124e30bcfb340e1402d
   Smart-Core-SDK: 0c35c02f7722b4b2ce98fff212cda1c519912c59
   Smart-Display-SDK: fa8c47b5ad2b1cd7125ad5a4cf8e760246b05a52
-  SpotX-SDK: c96ab86a48a96a820ab14b0d02b44daa4398bfe5
-  SpotX-SDK-MOAT: b1a27307b81dd2e955f73471d31b2bf41c0bb288
+  SpotX-SDK: 151a5cb87684cc9c10415720e32f824807e5db9e
+  SpotX-SDK-MOAT: c8ee5a47926483d38bb0ef8981dcb815107e4223
   UnityAds: 3a60ca937078be375f5020deac747618c0baa931
   VungleSDK-iOS: 6bf8b4fef32afc169acbc1291485560c81ceb293
 
-PODFILE CHECKSUM: 9747bd847a50dddfb7ab38b9b21eeef5febac743
+PODFILE CHECKSUM: 00c82d440d6affbb608c0cfa79d80d338022ca91
 
 COCOAPODS: 1.9.1
