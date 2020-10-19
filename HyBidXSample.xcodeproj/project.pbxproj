@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4805CC8634378469FA0506C2 /* Pods_HyBidXSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB95F48AAF91A0D2495FE7D /* Pods_HyBidXSample.framework */; };
 		6221D38723C49AE900DD0721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38623C49AE900DD0721 /* AppDelegate.m */; };
 		6221D38D23C49AE900DD0721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6221D38C23C49AE900DD0721 /* ViewController.m */; };
 		6221D39023C49AE900DD0721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6221D38E23C49AE900DD0721 /* Main.storyboard */; };
@@ -23,8 +24,7 @@
 		7E524DC323592D7400AAAE78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC223592D7400AAAE78 /* Assets.xcassets */; };
 		7E524DC623592D7400AAAE78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E524DC423592D7400AAAE78 /* LaunchScreen.storyboard */; };
 		7E524DD123592D7400AAAE78 /* HyBidXSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E524DD023592D7400AAAE78 /* HyBidXSampleTests.swift */; };
-		C9366C9011FA7007DA61B467 /* Pods_HyBidXSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DD09F43CBB08D450FC0D37 /* Pods_HyBidXSample.framework */; };
-		D33B4B97BF020159E96BD006 /* Pods_HyBidXSampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C0F591B05B375DB354DFAB /* Pods_HyBidXSampleObjC.framework */; };
+		E4A1E1B21A48C6CB52C36131 /* Pods_HyBidXSampleObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB1BD5683C4BD349293BAAB /* Pods_HyBidXSampleObjC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		16C0F591B05B375DB354DFAB /* Pods_HyBidXSampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyBidXSampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45213ADCBBDA2582AE980E75 /* Pods-HyBidXSampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSampleObjC.release.xcconfig"; path = "Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC.release.xcconfig"; sourceTree = "<group>"; };
+		313AC8F5AC3FC4CED94936D6 /* Pods-HyBidXSampleObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSampleObjC.release.xcconfig"; path = "Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC.release.xcconfig"; sourceTree = "<group>"; };
+		3746A54A63D5364DC055E88C /* Pods-HyBidXSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSample.release.xcconfig"; path = "Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample.release.xcconfig"; sourceTree = "<group>"; };
+		3C8FF296CF9B9DB3FF588B21 /* Pods-HyBidXSampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		6221D38323C49AE900DD0721 /* HyBidXSampleObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyBidXSampleObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6221D38523C49AE900DD0721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6221D38623C49AE900DD0721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		622AC7E1240922B500635A2F /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		622AC7E4240934BC00635A2F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		62B9377D2406AB3800FA8F6B /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		6EB1BD5683C4BD349293BAAB /* Pods_HyBidXSampleObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyBidXSampleObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DB623592D7300AAAE78 /* HyBidXSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyBidXSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DB923592D7300AAAE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E524DBD23592D7300AAAE78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,10 +90,8 @@
 		7E524DCC23592D7400AAAE78 /* HyBidXSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyBidXSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E524DD023592D7400AAAE78 /* HyBidXSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyBidXSampleTests.swift; sourceTree = "<group>"; };
 		7E524DD223592D7400AAAE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6DD09F43CBB08D450FC0D37 /* Pods_HyBidXSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyBidXSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB0D8D8455036ABA39047688 /* Pods-HyBidXSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSample.debug.xcconfig"; path = "Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample.debug.xcconfig"; sourceTree = "<group>"; };
-		CE42A08DDEE943C6D743171E /* Pods-HyBidXSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSample.release.xcconfig"; path = "Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample.release.xcconfig"; sourceTree = "<group>"; };
-		DFCFFB1AAF38F1E0BD887C4F /* Pods-HyBidXSampleObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSampleObjC.debug.xcconfig"; path = "Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		EBB95F48AAF91A0D2495FE7D /* Pods_HyBidXSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyBidXSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F627E0D9CE0FC02F42D4C821 /* Pods-HyBidXSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyBidXSample.debug.xcconfig"; path = "Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33B4B97BF020159E96BD006 /* Pods_HyBidXSampleObjC.framework in Frameworks */,
+				E4A1E1B21A48C6CB52C36131 /* Pods_HyBidXSampleObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9366C9011FA7007DA61B467 /* Pods_HyBidXSample.framework in Frameworks */,
+				4805CC8634378469FA0506C2 /* Pods_HyBidXSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,21 +131,12 @@
 		0149EB749A95877AE9CC0880 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB0D8D8455036ABA39047688 /* Pods-HyBidXSample.debug.xcconfig */,
-				CE42A08DDEE943C6D743171E /* Pods-HyBidXSample.release.xcconfig */,
-				DFCFFB1AAF38F1E0BD887C4F /* Pods-HyBidXSampleObjC.debug.xcconfig */,
-				45213ADCBBDA2582AE980E75 /* Pods-HyBidXSampleObjC.release.xcconfig */,
+				F627E0D9CE0FC02F42D4C821 /* Pods-HyBidXSample.debug.xcconfig */,
+				3746A54A63D5364DC055E88C /* Pods-HyBidXSample.release.xcconfig */,
+				3C8FF296CF9B9DB3FF588B21 /* Pods-HyBidXSampleObjC.debug.xcconfig */,
+				313AC8F5AC3FC4CED94936D6 /* Pods-HyBidXSampleObjC.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		540F53C779E450FA0BE7CEDB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C6DD09F43CBB08D450FC0D37 /* Pods_HyBidXSample.framework */,
-				16C0F591B05B375DB354DFAB /* Pods_HyBidXSampleObjC.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6221D38423C49AE900DD0721 /* HyBidXSampleObjC */ = {
@@ -186,7 +177,7 @@
 				6221D3A023C49AEA00DD0721 /* HyBidXSampleObjCTests */,
 				7E524DB723592D7300AAAE78 /* Products */,
 				0149EB749A95877AE9CC0880 /* Pods */,
-				540F53C779E450FA0BE7CEDB /* Frameworks */,
+				A18B0F7CA45DE572F96B0F77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,6 +215,15 @@
 			path = HyBidXSampleTests;
 			sourceTree = "<group>";
 		};
+		A18B0F7CA45DE572F96B0F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBB95F48AAF91A0D2495FE7D /* Pods_HyBidXSample.framework */,
+				6EB1BD5683C4BD349293BAAB /* Pods_HyBidXSampleObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,12 +231,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6221D3A423C49AEA00DD0721 /* Build configuration list for PBXNativeTarget "HyBidXSampleObjC" */;
 			buildPhases = (
-				DCC0E822BA073959C166D964 /* [CP] Check Pods Manifest.lock */,
+				40B27D11D2BFE7BAF6CEB6E4 /* [CP] Check Pods Manifest.lock */,
+				99CEF02770CCFB7280D55DDF /* [CP] Prepare Artifacts */,
 				6221D37F23C49AE900DD0721 /* Sources */,
 				6221D38023C49AE900DD0721 /* Frameworks */,
 				6221D38123C49AE900DD0721 /* Resources */,
-				2680C539B5E38EDACAA7C119 /* [CP] Embed Pods Frameworks */,
-				D48DA0CA599E6575F69C7D4E /* [CP] Copy Pods Resources */,
+				E728F363ABC6A643A9186A15 /* [CP] Embed Pods Frameworks */,
+				57ACA176F7CBA535FD8D4AEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,13 +270,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E524DD523592D7400AAAE78 /* Build configuration list for PBXNativeTarget "HyBidXSample" */;
 			buildPhases = (
-				647572D3F1DC3BB9482298A0 /* [CP] Check Pods Manifest.lock */,
+				0CCCA696686757324F541611 /* [CP] Check Pods Manifest.lock */,
+				3390708AB95BCE51ECD0A75F /* [CP] Prepare Artifacts */,
 				7E524DB223592D7300AAAE78 /* Sources */,
 				7E524DB323592D7300AAAE78 /* Frameworks */,
 				7E524DB423592D7300AAAE78 /* Resources */,
 				62E0C61823C395C90011DDE0 /* Embed Frameworks */,
-				B4410EFCA54C097149D76073 /* [CP] Embed Pods Frameworks */,
-				4376F23D56134449798AFCDD /* [CP] Copy Pods Resources */,
+				BB50AE609E1F91FBF20F2BED /* [CP] Embed Pods Frameworks */,
+				37A98FA77FF187100B00AB5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,41 +391,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2680C539B5E38EDACAA7C119 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4376F23D56134449798AFCDD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		647572D3F1DC3BB9482298A0 /* [CP] Check Pods Manifest.lock */ = {
+		0CCCA696686757324F541611 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,41 +413,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B4410EFCA54C097149D76073 /* [CP] Embed Pods Frameworks */ = {
+		3390708AB95BCE51ECD0A75F /* [CP] Prepare Artifacts */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-artifacts-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Prepare Artifacts";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-artifacts-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-artifacts.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D48DA0CA599E6575F69C7D4E /* [CP] Copy Pods Resources */ = {
+		37A98FA77FF187100B00AB5E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCC0E822BA073959C166D964 /* [CP] Check Pods Manifest.lock */ = {
+		40B27D11D2BFE7BAF6CEB6E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,6 +467,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57ACA176F7CBA535FD8D4AEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CEF02770CCFB7280D55DDF /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB50AE609E1F91FBF20F2BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSample/Pods-HyBidXSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E728F363ABC6A643A9186A15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyBidXSampleObjC/Pods-HyBidXSampleObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -595,7 +631,7 @@
 /* Begin XCBuildConfiguration section */
 		6221D3A523C49AEA00DD0721 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFCFFB1AAF38F1E0BD887C4F /* Pods-HyBidXSampleObjC.debug.xcconfig */;
+			baseConfigurationReference = 3C8FF296CF9B9DB3FF588B21 /* Pods-HyBidXSampleObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -617,7 +653,7 @@
 		};
 		6221D3A623C49AEA00DD0721 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45213ADCBBDA2582AE980E75 /* Pods-HyBidXSampleObjC.release.xcconfig */;
+			baseConfigurationReference = 313AC8F5AC3FC4CED94936D6 /* Pods-HyBidXSampleObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -793,11 +829,11 @@
 		};
 		7E524DD623592D7400AAAE78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB0D8D8455036ABA39047688 /* Pods-HyBidXSample.debug.xcconfig */;
+			baseConfigurationReference = F627E0D9CE0FC02F42D4C821 /* Pods-HyBidXSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -812,7 +848,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSample;
 				PRODUCT_NAME = HyBidXSample;
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.HyBidXSample";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -820,11 +856,11 @@
 		};
 		7E524DD723592D7400AAAE78 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE42A08DDEE943C6D743171E /* Pods-HyBidXSample.release.xcconfig */;
+			baseConfigurationReference = 3746A54A63D5364DC055E88C /* Pods-HyBidXSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -839,7 +875,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.pubnative.public.HyBidXSample;
 				PRODUCT_NAME = HyBidXSample;
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc net.pubnative.public.HyBidXSample";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
