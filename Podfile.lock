@@ -1,164 +1,196 @@
 PODS:
-  - AATKit/Core (2.71.2)
-  - AATKit/Inmobi (2.71.2):
+  - AATDependencyHelper (1.0.6)
+  - AATKit/AATDependencyHelper (2.72.2):
+    - AATDependencyHelper (= 1.0.6)
     - AATKit/Core
-    - InMobiSDK/Core (= 9.0.7)
-  - AATKit/Mopub (2.71.2):
+    - Google-Mobile-Ads-SDK (= 7.69.0)
+  - AATKit/AdX (2.72.2):
+    - AATKit/GoogleMobileAds
+  - AATKit/AmazonHB (2.72.2):
     - AATKit/Core
-  - AATKit/Smaato (2.71.2):
+    - AmazonPublisherServicesSDK (= 3.4.1)
+  - AATKit/Core (2.72.2)
+  - AATKit/DFP (2.72.2):
+    - AATKit/GoogleMobileAds
+  - AATKit/GoogleMobileAds (2.72.2):
+    - AATKit/AATDependencyHelper
     - AATKit/Core
-    - smaato-ios-sdk (= 21.6.2)
-  - AATKit/SmartAdServer (2.71.2):
+  - AATKit/Inmobi (2.72.2):
     - AATKit/Core
-    - Smart-Display-SDK (= 7.6.2)
-  - AATKit/Unity (2.71.2):
+    - InMobiSDK/Core (= 9.1.0)
+  - AATKit/Mopub (2.72.2):
     - AATKit/Core
-    - UnityAds (= 3.4.8)
+  - AATKit/Smaato (2.72.2):
+    - AATKit/Core
+    - smaato-ios-sdk (= 21.6.6)
+  - AATKit/SmartAdServer (2.72.2):
+    - AATKit/Core
+    - Smart-Display-SDK (= 7.8.0)
+  - AATKit/Unity (2.72.2):
+    - AATKit/Core
+    - UnityAds (= 3.5.1)
   - AdColony (4.4.0)
-  - AppLovinSDK (6.14.4)
+  - AmazonPublisherServicesSDK (3.4.1)
+  - AppLovinSDK (6.14.11)
   - FairBidSDK (3.6.1)
-  - FBSDKCoreKit (8.0.0):
-    - FBSDKCoreKit/Basics (= 8.0.0)
-    - FBSDKCoreKit/Core (= 8.0.0)
-  - FBSDKCoreKit/Basics (8.0.0)
-  - FBSDKCoreKit/Core (8.0.0):
+  - FBSDKCoreKit (8.2.0):
+    - FBSDKCoreKit/Basics (= 8.2.0)
+    - FBSDKCoreKit/Core (= 8.2.0)
+  - FBSDKCoreKit/Basics (8.2.0)
+  - FBSDKCoreKit/Core (8.2.0):
     - FBSDKCoreKit/Basics
-  - FeedAd (1.2.3)
-  - Google-Mobile-Ads-SDK (7.66.0):
-    - GoogleAppMeasurement (~> 6.0)
+  - FeedAd (1.2.4)
+  - Google-Mobile-Ads-SDK (7.69.0):
+    - GoogleAppMeasurement (~> 7.0)
     - GoogleUserMessagingPlatform (~> 1.1)
-  - GoogleAppMeasurement (6.9.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 6.7)
-    - GoogleUtilities/MethodSwizzler (~> 6.7)
-    - GoogleUtilities/Network (~> 6.7)
-    - "GoogleUtilities/NSData+zlib (~> 6.7)"
-    - nanopb (~> 1.30906.0)
-  - GoogleUserMessagingPlatform (1.2.0)
-  - GoogleUtilities/AppDelegateSwizzler (6.7.2):
+  - GoogleAppMeasurement (7.4.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - GoogleUserMessagingPlatform (1.4.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.2.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (6.7.2):
+  - GoogleUtilities/Environment (7.2.0):
     - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (6.7.2):
+  - GoogleUtilities/Logger (7.2.0):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (6.7.2):
+  - GoogleUtilities/MethodSwizzler (7.2.0):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (6.7.2):
+  - GoogleUtilities/Network (7.2.0):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (6.7.2)"
-  - GoogleUtilities/Reachability (6.7.2):
+  - "GoogleUtilities/NSData+zlib (7.2.0)"
+  - GoogleUtilities/Reachability (7.2.0):
     - GoogleUtilities/Logger
-  - HyBid (2.1.0)
-  - HyBidX (0.8.1):
-    - HyBidX/AAT (= 0.8.1)
-    - HyBidX/AdColony (= 0.8.1)
-    - HyBidX/Admob (= 0.8.1)
-    - HyBidX/AppLovin (= 0.8.1)
-    - HyBidX/Core (= 0.8.1)
-    - HyBidX/FairBid (= 0.8.1)
-    - HyBidX/FeedAd (= 0.8.1)
-    - HyBidX/IronSource (= 0.8.1)
-    - HyBidX/Pubnative (= 0.8.1)
-    - HyBidX/SpotX (= 0.8.1)
-  - HyBidX/AAT (0.8.1):
-    - AATKit/Core (= 2.71.2)
-    - AATKit/Inmobi (= 2.71.2)
-    - AATKit/Mopub (= 2.71.2)
-    - AATKit/Smaato (= 2.71.2)
-    - AATKit/SmartAdServer (= 2.71.2)
-    - AATKit/Unity (= 2.71.2)
+  - HyBid (2.4.0-beta2):
+    - HyBid/Banner (= 2.4.0-beta2)
+    - HyBid/Core (= 2.4.0-beta2)
+    - HyBid/FullScreen (= 2.4.0-beta2)
+    - HyBid/Native (= 2.4.0-beta2)
+    - HyBid/RewardedVideo (= 2.4.0-beta2)
+  - HyBid/Banner (2.4.0-beta2):
+    - HyBid/Core
+  - HyBid/Core (2.4.0-beta2)
+  - HyBid/FullScreen (2.4.0-beta2):
+    - HyBid/Core
+  - HyBid/Native (2.4.0-beta2):
+    - HyBid/Core
+  - HyBid/RewardedVideo (2.4.0-beta2):
+    - HyBid/Core
+  - HyBidX (0.9.3):
+    - HyBidX/AAT (= 0.9.3)
+    - HyBidX/AdColony (= 0.9.3)
+    - HyBidX/Admob (= 0.9.3)
+    - HyBidX/AppLovin (= 0.9.3)
+    - HyBidX/Core (= 0.9.3)
+    - HyBidX/FairBid (= 0.9.3)
+    - HyBidX/FeedAd (= 0.9.3)
+    - HyBidX/IronSource (= 0.9.3)
+    - HyBidX/Pubnative (= 0.9.3)
+    - HyBidX/SpotX (= 0.9.3)
+  - HyBidX/AAT (0.9.3):
+    - AATKit/AdX (= 2.72.2)
+    - AATKit/AmazonHB (= 2.72.2)
+    - AATKit/Core (= 2.72.2)
+    - AATKit/DFP (= 2.72.2)
+    - AATKit/Inmobi (= 2.72.2)
+    - AATKit/Mopub (= 2.72.2)
+    - AATKit/Smaato (= 2.72.2)
+    - AATKit/SmartAdServer (= 2.72.2)
+    - AATKit/Unity (= 2.72.2)
     - HyBidX/Core
-  - HyBidX/AdColony (0.8.1):
+  - HyBidX/AdColony (0.9.3):
     - AdColony (= 4.4.0)
     - HyBidX/Core
-  - HyBidX/Admob (0.8.1):
-    - Google-Mobile-Ads-SDK (= 7.66.0)
+  - HyBidX/Admob (0.9.3):
+    - Google-Mobile-Ads-SDK (= 7.69.0)
     - HyBidX/Core
-  - HyBidX/AppLovin (0.8.1):
-    - AppLovinSDK (= 6.14.4)
+  - HyBidX/AppLovin (0.9.3):
+    - AppLovinSDK (= 6.14.11)
     - HyBidX/Core
-  - HyBidX/Core (0.8.1):
-    - FBSDKCoreKit (= 8.0.0)
-  - HyBidX/FairBid (0.8.1):
+  - HyBidX/Core (0.9.3):
+    - FBSDKCoreKit (= 8.2.0)
+  - HyBidX/FairBid (0.9.3):
     - FairBidSDK (= 3.6.1)
     - HyBidX/Core
-  - HyBidX/FeedAd (0.8.1):
-    - FeedAd (= 1.2.3)
+  - HyBidX/FeedAd (0.9.3):
+    - FeedAd (= 1.2.4)
     - HyBidX/Core
-  - HyBidX/IronSource (0.8.1):
+  - HyBidX/IronSource (0.9.3):
     - HyBidX/Core
     - RTAIronSource (= 7.0.2)
-  - HyBidX/Pubnative (0.8.1):
-    - HyBid (= 2.1.0)
+  - HyBidX/Pubnative (0.9.3):
+    - HyBid (= 2.4.0-beta2)
     - HyBidX/Core
-  - HyBidX/SpotX (0.8.1):
+  - HyBidX/SpotX (0.9.3):
     - HyBidX/Core
     - SpotX-SDK (= 4.9.0)
-    - SpotX-SDK-MOAT (= 4.8.0)
-  - InMobiSDK/Core (9.0.7)
-  - nanopb (1.30906.0):
-    - nanopb/decode (= 1.30906.0)
-    - nanopb/encode (= 1.30906.0)
-  - nanopb/decode (1.30906.0)
-  - nanopb/encode (1.30906.0)
-  - PromisesObjC (1.2.11)
+  - InMobiSDK/Core (9.1.0)
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - PromisesObjC (1.2.12)
   - RTAIronSource (7.0.2)
-  - smaato-ios-sdk (21.6.2):
-    - smaato-ios-sdk/Full (= 21.6.2)
-  - smaato-ios-sdk/Banner (21.6.2):
+  - smaato-ios-sdk (21.6.6):
+    - smaato-ios-sdk/Full (= 21.6.6)
+  - smaato-ios-sdk/Banner (21.6.6):
     - smaato-ios-sdk/Modules/Banner
     - smaato-ios-sdk/Modules/Core
     - smaato-ios-sdk/Modules/RichMedia
-  - smaato-ios-sdk/Full (21.6.2):
+  - smaato-ios-sdk/Full (21.6.6):
     - smaato-ios-sdk/Banner
     - smaato-ios-sdk/Interstitial
     - smaato-ios-sdk/Native
     - smaato-ios-sdk/RewardedAds
-  - smaato-ios-sdk/Interstitial (21.6.2):
+  - smaato-ios-sdk/Interstitial (21.6.6):
     - smaato-ios-sdk/Modules/Interstitial
     - smaato-ios-sdk/Modules/RichMedia
     - smaato-ios-sdk/Modules/Video
-  - smaato-ios-sdk/Modules/Banner (21.6.2):
+  - smaato-ios-sdk/Modules/Banner (21.6.6):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/Core (21.6.2)
-  - smaato-ios-sdk/Modules/Interstitial (21.6.2):
+  - smaato-ios-sdk/Modules/Core (21.6.6)
+  - smaato-ios-sdk/Modules/Interstitial (21.6.6):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/Native (21.6.2):
+  - smaato-ios-sdk/Modules/Native (21.6.6):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/OpenMeasurement (21.6.2):
+  - smaato-ios-sdk/Modules/OpenMeasurement (21.6.6):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/RewardedAds (21.6.2):
+  - smaato-ios-sdk/Modules/RewardedAds (21.6.6):
     - smaato-ios-sdk/Modules/Core
-  - smaato-ios-sdk/Modules/RichMedia (21.6.2):
-    - smaato-ios-sdk/Modules/Core
-    - smaato-ios-sdk/Modules/OpenMeasurement
-  - smaato-ios-sdk/Modules/Video (21.6.2):
+  - smaato-ios-sdk/Modules/RichMedia (21.6.6):
     - smaato-ios-sdk/Modules/Core
     - smaato-ios-sdk/Modules/OpenMeasurement
-  - smaato-ios-sdk/Native (21.6.2):
+  - smaato-ios-sdk/Modules/Video (21.6.6):
+    - smaato-ios-sdk/Modules/Core
+    - smaato-ios-sdk/Modules/OpenMeasurement
+  - smaato-ios-sdk/Native (21.6.6):
     - smaato-ios-sdk/Modules/Core
     - smaato-ios-sdk/Modules/Native
-  - smaato-ios-sdk/RewardedAds (21.6.2):
+  - smaato-ios-sdk/RewardedAds (21.6.6):
     - smaato-ios-sdk/Modules/RewardedAds
     - smaato-ios-sdk/Modules/Video
-  - Smart-Core-SDK (7.7.0)
-  - Smart-Display-SDK (7.6.2):
-    - Smart-Core-SDK (~> 7.6)
+  - Smart-Core-SDK (7.9.0)
+  - Smart-Display-SDK (7.8.0):
+    - Smart-Core-SDK (~> 7.8)
   - SpotX-SDK (4.9.0)
-  - SpotX-SDK-MOAT (4.8.0):
-    - SpotX-SDK
-  - UnityAds (3.4.8)
+  - UnityAds (3.5.1)
 
 DEPENDENCIES:
-  - HyBidX (= 0.8.1)
+  - HyBidX (= 0.9.3)
 
 SPEC REPOS:
   trunk:
+    - AATDependencyHelper
     - AATKit
     - AdColony
+    - AmazonPublisherServicesSDK
     - AppLovinSDK
     - FairBidSDK
     - FBSDKCoreKit
@@ -177,33 +209,33 @@ SPEC REPOS:
     - Smart-Core-SDK
     - Smart-Display-SDK
     - SpotX-SDK
-    - SpotX-SDK-MOAT
     - UnityAds
 
 SPEC CHECKSUMS:
-  AATKit: 0b2df96174ca0d81d210eb7f12da1059be60c3e1
+  AATDependencyHelper: 12e55c61653487ebbf67cc154a61a309a200a6e5
+  AATKit: c936fd6c24ee895ebec4596bda643b93d646c3e8
   AdColony: 03c713bc6fedcaf3fc92f21f89276bc8a332e9c6
-  AppLovinSDK: 7d10e98a208223cb23b4287040fbdc6a26aa9224
+  AmazonPublisherServicesSDK: 22ef1df6fb7104640aacd73aff3ea6544742961a
+  AppLovinSDK: 768397bbd5cb5ec1179ba32a17f06ff119ebcffe
   FairBidSDK: 2325ba078c2f15f695af75e296c89449f19ddb17
-  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
-  FeedAd: 1d362814dfe4df3c5dc921e59fd733297c9ba0fc
-  Google-Mobile-Ads-SDK: 7d7074359c040f5add4e0963bf860e14690060d0
-  GoogleAppMeasurement: a6a3a066369828db64eda428cb2856dc1cdc7c4e
-  GoogleUserMessagingPlatform: c85530d930ba509583aa5a6d50a10aca22cf8502
-  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
-  HyBid: f31297324dc5b4d3cd5f58fb511bda436f963ebb
-  HyBidX: 727877b2d5307de1cac30ae1497cd6060e9ab370
-  InMobiSDK: c3ec3fed998d8431ba31ad16565d102159e3f9e3
-  nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
-  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  FBSDKCoreKit: 4afd6ff53d8133a433dbcda44451c9498f8c6ce4
+  FeedAd: bf1843c06bbe0dfacedec31b38d99627bcc7bcc7
+  Google-Mobile-Ads-SDK: 2f288748a42920d1c744946a460896a95b0e9110
+  GoogleAppMeasurement: 688d7f00e2894d9e13823ed9a028b13b993bc277
+  GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
+  GoogleUtilities: d866834472f1324d080496bc67ab3ce5d0d46027
+  HyBid: baba15253f5b89166820f7052fec8d41a59d5512
+  HyBidX: 03271fedf1c9385b63c59588bfe3aa4893b627c4
+  InMobiSDK: 1f44ab19df848259722d215d79391c0dff1dab99
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
   RTAIronSource: e50c3c53dae2000343ddadf81ea0aa062cfc6585
-  smaato-ios-sdk: 03ee45d32e2b398b7e65536203bcab9bd43b64ff
-  Smart-Core-SDK: 64db736ea1d960f284ea23aac016dd6d7f88d489
-  Smart-Display-SDK: 65f68dc0f57063ade9590d32ac3318255f7c6a07
+  smaato-ios-sdk: 975ac58f5cb870653bb5544962bdbe4c28f140b1
+  Smart-Core-SDK: e489e9231223ab4c3e34b7445111e7c804d5f48c
+  Smart-Display-SDK: d670bac47d0aeece407117943874ad8e399306b9
   SpotX-SDK: 7fcfbc6e2e368413818a354721964d6d67d4bcee
-  SpotX-SDK-MOAT: c8ee5a47926483d38bb0ef8981dcb815107e4223
-  UnityAds: 729ce6e485d5ae45df03ad13e440cde6967feee3
+  UnityAds: 5cf7348607675db42414a1625f88c2d560f1164c
 
-PODFILE CHECKSUM: 2b5aa1ac6042b28c361696e1dfc2efbe75addc34
+PODFILE CHECKSUM: cf6f40344c6927295117fb678e1f2446c34bac1f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1
