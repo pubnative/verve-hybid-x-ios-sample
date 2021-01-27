@@ -67,33 +67,33 @@ PODS:
   - "GoogleUtilities/NSData+zlib (7.2.0)"
   - GoogleUtilities/Reachability (7.2.0):
     - GoogleUtilities/Logger
-  - HyBid (2.4.0-beta2):
-    - HyBid/Banner (= 2.4.0-beta2)
-    - HyBid/Core (= 2.4.0-beta2)
-    - HyBid/FullScreen (= 2.4.0-beta2)
-    - HyBid/Native (= 2.4.0-beta2)
-    - HyBid/RewardedVideo (= 2.4.0-beta2)
-  - HyBid/Banner (2.4.0-beta2):
+  - HyBid (2.4.0-beta3):
+    - HyBid/Banner (= 2.4.0-beta3)
+    - HyBid/Core (= 2.4.0-beta3)
+    - HyBid/FullScreen (= 2.4.0-beta3)
+    - HyBid/Native (= 2.4.0-beta3)
+    - HyBid/RewardedVideo (= 2.4.0-beta3)
+  - HyBid/Banner (2.4.0-beta3):
     - HyBid/Core
-  - HyBid/Core (2.4.0-beta2)
-  - HyBid/FullScreen (2.4.0-beta2):
+  - HyBid/Core (2.4.0-beta3)
+  - HyBid/FullScreen (2.4.0-beta3):
     - HyBid/Core
-  - HyBid/Native (2.4.0-beta2):
+  - HyBid/Native (2.4.0-beta3):
     - HyBid/Core
-  - HyBid/RewardedVideo (2.4.0-beta2):
+  - HyBid/RewardedVideo (2.4.0-beta3):
     - HyBid/Core
-  - HyBidX (0.9.3):
-    - HyBidX/AAT (= 0.9.3)
-    - HyBidX/AdColony (= 0.9.3)
-    - HyBidX/Admob (= 0.9.3)
-    - HyBidX/AppLovin (= 0.9.3)
-    - HyBidX/Core (= 0.9.3)
-    - HyBidX/FairBid (= 0.9.3)
-    - HyBidX/FeedAd (= 0.9.3)
-    - HyBidX/IronSource (= 0.9.3)
-    - HyBidX/Pubnative (= 0.9.3)
-    - HyBidX/SpotX (= 0.9.3)
-  - HyBidX/AAT (0.9.3):
+  - HyBidX (0.9.4):
+    - HyBidX/AAT (= 0.9.4)
+    - HyBidX/AdColony (= 0.9.4)
+    - HyBidX/Admob (= 0.9.4)
+    - HyBidX/AppLovin (= 0.9.4)
+    - HyBidX/Core (= 0.9.4)
+    - HyBidX/FairBid (= 0.9.4)
+    - HyBidX/FeedAd (= 0.9.4)
+    - HyBidX/IronSource (= 0.9.4)
+    - HyBidX/Pubnative (= 0.9.4)
+    - HyBidX/SpotX (= 0.9.4)
+  - HyBidX/AAT (0.9.4):
     - AATKit/AdX (= 2.72.2)
     - AATKit/AmazonHB (= 2.72.2)
     - AATKit/Core (= 2.72.2)
@@ -104,30 +104,30 @@ PODS:
     - AATKit/SmartAdServer (= 2.72.2)
     - AATKit/Unity (= 2.72.2)
     - HyBidX/Core
-  - HyBidX/AdColony (0.9.3):
+  - HyBidX/AdColony (0.9.4):
     - AdColony (= 4.4.0)
     - HyBidX/Core
-  - HyBidX/Admob (0.9.3):
+  - HyBidX/Admob (0.9.4):
     - Google-Mobile-Ads-SDK (= 7.69.0)
     - HyBidX/Core
-  - HyBidX/AppLovin (0.9.3):
+  - HyBidX/AppLovin (0.9.4):
     - AppLovinSDK (= 6.14.11)
     - HyBidX/Core
-  - HyBidX/Core (0.9.3):
+  - HyBidX/Core (0.9.4):
     - FBSDKCoreKit (= 8.2.0)
-  - HyBidX/FairBid (0.9.3):
+  - HyBidX/FairBid (0.9.4):
     - FairBidSDK (= 3.6.1)
     - HyBidX/Core
-  - HyBidX/FeedAd (0.9.3):
+  - HyBidX/FeedAd (0.9.4):
     - FeedAd (= 1.2.4)
     - HyBidX/Core
-  - HyBidX/IronSource (0.9.3):
+  - HyBidX/IronSource (0.9.4):
     - HyBidX/Core
     - RTAIronSource (= 7.0.2)
-  - HyBidX/Pubnative (0.9.3):
-    - HyBid (= 2.4.0-beta2)
+  - HyBidX/Pubnative (0.9.4):
+    - HyBid (= 2.4.0-beta3)
     - HyBidX/Core
-  - HyBidX/SpotX (0.9.3):
+  - HyBidX/SpotX (0.9.4):
     - HyBidX/Core
     - SpotX-SDK (= 4.9.0)
   - InMobiSDK/Core (9.1.0)
@@ -183,7 +183,7 @@ PODS:
   - UnityAds (3.5.1)
 
 DEPENDENCIES:
-  - HyBidX (= 0.9.3)
+  - HyBidX (= 0.9.4)
 
 SPEC REPOS:
   trunk:
@@ -224,8 +224,8 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 688d7f00e2894d9e13823ed9a028b13b993bc277
   GoogleUserMessagingPlatform: b168e8c46cd8f92aa3e34b584c4ca78a411ce367
   GoogleUtilities: d866834472f1324d080496bc67ab3ce5d0d46027
-  HyBid: baba15253f5b89166820f7052fec8d41a59d5512
-  HyBidX: 03271fedf1c9385b63c59588bfe3aa4893b627c4
+  HyBid: df0a986ae3916e46dd2a53cbf2460a191c40c49c
+  HyBidX: c793b3f49e2e82d4765de6fe295b15d232ab34bb
   InMobiSDK: 1f44ab19df848259722d215d79391c0dff1dab99
   nanopb: 59221d7f958fb711001e6a449489542d92ae113e
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
@@ -236,6 +236,6 @@ SPEC CHECKSUMS:
   SpotX-SDK: 7fcfbc6e2e368413818a354721964d6d67d4bcee
   UnityAds: 5cf7348607675db42414a1625f88c2d560f1164c
 
-PODFILE CHECKSUM: cf6f40344c6927295117fb678e1f2446c34bac1f
+PODFILE CHECKSUM: 6e8d1fe3577113f47ee63c0a91e6df0bd7915817
 
 COCOAPODS: 1.10.1
